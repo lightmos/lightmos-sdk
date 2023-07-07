@@ -23,11 +23,22 @@ type msgServer struct {
 
 // NewMsgServerImpl returns an implementation of the bank MsgServer interface
 // for the provided Keeper.
+// func NewMsgServerImpl(keeper *Keeper) types.MsgServer {
+// 	return &msgServer{Keeper: keeper}
+// }
+
+// var _ types.MsgServer = msgServer{}
+
+var stakingMsgSrv types.MsgServer = msgServer{}
+
 func NewMsgServerImpl(keeper *Keeper) types.MsgServer {
-	return &msgServer{Keeper: keeper}
+	stakingMsgSrv = &msgServer{Keeper: keeper}
+	return stakingMsgSrv
 }
 
-var _ types.MsgServer = msgServer{}
+func (k Keeper) RestakeValidator(goCtx context.Context, msg *types.MsgCreateValidator) (*types.MsgCreateValidatorResponse, error) {
+	return stakingMsgSrv.CreateValidator(goCtx, msg)
+}
 
 // CreateValidator defines a method for creating a new validator
 func (k msgServer) CreateValidator(goCtx context.Context, msg *types.MsgCreateValidator) (*types.MsgCreateValidatorResponse, error) {
