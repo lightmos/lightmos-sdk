@@ -1,0 +1,125 @@
+syntax = "proto3";
+
+package lightmos.restaking;
+
+import "lightmos/restaking/restaking.proto";
+import "gogoproto/gogo.proto";
+import "google/protobuf/any.proto";
+import "google/protobuf/timestamp.proto";
+import "lightmos/base/coin.proto";
+import "cosmos_proto/cosmos.proto";
+
+option go_package = "lightmos/x/restaking/types";
+
+// Msg defines the Msg service.
+service Msg {
+  rpc SendSellOrder   (MsgSendSellOrder  ) returns (MsgSendSellOrderResponse  );
+  rpc SendBuyOrder    (MsgSendBuyOrder   ) returns (MsgSendBuyOrderResponse   );
+  rpc CancelSellOrder (MsgCancelSellOrder) returns (MsgCancelSellOrderResponse);
+  rpc CancelBuyOrder  (MsgCancelBuyOrder ) returns (MsgCancelBuyOrderResponse );
+  rpc CreateValidator (MsgCreateValidator) returns (MsgCreateValidatorResponse);
+  rpc SendRetireShare (MsgSendRetireShare) returns (MsgSendRetireShareResponse);
+  rpc SendUndelegate  (MsgSendUndelegate ) returns (MsgSendUndelegateResponse );
+  rpc WithdrawToken   (MsgWithdrawToken  ) returns (MsgWithdrawTokenResponse  );
+}
+
+message MsgSendSellOrder {
+  string amountDenom      = 5;
+  int32  amount           = 6;
+  string priceDenom       = 7;
+  int32  price            = 8;
+  string creator          = 1;
+  string port             = 2;
+  string channelID        = 3;
+  uint64 timeoutTimestamp = 4;
+}
+
+message MsgSendSellOrderResponse {}
+
+message MsgSendBuyOrder {
+  string amountDenom      = 5;
+  int32  amount           = 6;
+  string priceDenom       = 7;
+  int32  price            = 8;
+  string creator          = 1;
+  string port             = 2;
+  string channelID        = 3;
+  uint64 timeoutTimestamp = 4;
+}
+
+message MsgSendBuyOrderResponse {}
+
+message MsgCancelSellOrder {
+  string creator     = 1;
+  string port        = 2;
+  string channel     = 3;
+  string amountDenom = 4;
+  string priceDenom  = 5;
+  int32  orderID     = 6;
+}
+
+message MsgCancelSellOrderResponse {}
+
+message MsgCancelBuyOrder {
+  string creator     = 1;
+  string port        = 2;
+  string channel     = 3;
+  string amountDenom = 4;
+  string priceDenom  = 5;
+  int32  orderID     = 6;
+}
+
+message MsgCancelBuyOrderResponse {}
+
+// MsgCreateValidator defines a SDK message for creating a new validator.
+message MsgCreateValidator {
+  
+  // NOTE(fdymylja): this is a particular case in which
+  // if validator_address == delegator_address then only one
+  // is expected to sign, otherwise both are.
+  option           (gogoproto.equal) = false;
+  option (gogoproto.goproto_getters) = false;
+  lightmos.restaking.Description     description         =  1 [(gogoproto.nullable)  = false                 ] ;
+  lightmos.restaking.CommissionRates commission          =  2 [(gogoproto.nullable)  = false                 ] ;
+  string                             min_self_delegation =  3 [(cosmos_proto.scalar) = "cosmos.Int"          , (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Int", (gogoproto.nullable) = false];
+  string                             delegator_address   =  4 [(cosmos_proto.scalar) = "cosmos.AddressString"] ;
+  string                             validator_address   =  5 [(cosmos_proto.scalar) = "cosmos.AddressString"] ;
+  string                             pubkey              =  6;
+  lightmos.base.Coin                 value               =  7 [(gogoproto.nullable)  = false                 ] ;
+  string                             port                =  8;
+  string                             channelID           =  9;
+  uint64                             timeoutTimestamp    = 10;
+  string                             creator             = 11;
+  string                             destinationChainId  = 12;
+}
+
+// MsgCreateValidatorResponse defines the Msg/CreateValidator response type.
+message MsgCreateValidatorResponse {}
+
+message MsgSendRetireShare {
+  lightmos.base.Coin amount           = 5;
+  string             validatorAddress = 1;
+  string             port             = 2;
+  string             channelID        = 3;
+  uint64             timeoutTimestamp = 4;
+}
+
+message MsgSendRetireShareResponse {}
+
+message MsgSendUndelegate {
+  lightmos.base.Coin amount           = 5;
+  string             validatorAddress = 1;
+  string             port             = 2;
+  string             channelID        = 3;
+  uint64             timeoutTimestamp = 4;
+}
+
+message MsgSendUndelegateResponse {}
+
+message MsgWithdrawToken {
+  string creator = 1;
+  lightmos.base.Coin                 value               =  7 [(gogoproto.nullable)  = false                 ] ;
+}
+
+message MsgWithdrawTokenResponse {}
+
