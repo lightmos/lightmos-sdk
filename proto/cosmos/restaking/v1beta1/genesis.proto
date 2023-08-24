@@ -3,22 +3,20 @@ syntax = "proto3";
 package cosmos.restaking.v1beta1;
 
 import "gogoproto/gogo.proto";
-import "cosmos/restaking/v1beta1/params.proto";
 import "cosmos/restaking/v1beta1/sell_order_book.proto";
 import "cosmos/restaking/v1beta1/buy_order_book.proto";
 import "cosmos/restaking/v1beta1/denom_trace.proto";
 import "cosmos/restaking/v1beta1/validator_token.proto";
 
-option go_package = "github.com/lightmos/lightmos-sdk/x/restaking/types";
+option go_package = "github.com/cosmos/cosmos-sdk/x/restaking/types";
 
 // GenesisState defines the restaking module's genesis state.
 message GenesisState {
-           Params         params              = 1 [(gogoproto.nullable) = false];
-           string         port_id             = 2;
-  repeated SellOrderBook  sellOrderBookList   = 3 [(gogoproto.nullable) = false];
-  repeated BuyOrderBook   buyOrderBookList    = 4 [(gogoproto.nullable) = false];
-  repeated DenomTrace     denomTraceList      = 5 [(gogoproto.nullable) = false];
-  repeated ValidatorToken validatorTokenList  = 6 [(gogoproto.nullable) = false];
-           uint64         validatorTokenCount = 7;
+           string         port_id             = 1;
+  repeated SellOrderBook  sellOrderBookList   = 2 [(gogoproto.nullable) = false];
+  repeated BuyOrderBook   buyOrderBookList    = 3 [(gogoproto.nullable) = false];
+  repeated DenomTrace     denomTraceList      = 4 [(gogoproto.nullable) = false];
+  repeated ValidatorToken validatorTokenList  = 5 [(gogoproto.nullable) = false];
+           uint64         validatorTokenCount = 6;
 }
 

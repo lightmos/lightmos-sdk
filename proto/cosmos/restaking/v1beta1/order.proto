@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package cosmos.restaking.v1beta1;
 
-option go_package = "github.com/lightmos/lightmos-sdk/x/restaking/types";
+option go_package = "github.com/cosmos/cosmos-sdk/x/restaking/types";
 
 message OrderBook {
   int32 idCount = 1;

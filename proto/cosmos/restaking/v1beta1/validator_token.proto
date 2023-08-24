@@ -5,7 +5,7 @@ import "cosmos_proto/cosmos.proto";
 import "gogoproto/gogo.proto";
 import "cosmos/base/v1beta1/coin.proto";
 
-option go_package = "github.com/lightmos/lightmos-sdk/x/restaking/types";
+option go_package = "github.com/cosmos/cosmos-sdk/x/restaking/types";
 
 message ValidatorToken {
   string address = 1;

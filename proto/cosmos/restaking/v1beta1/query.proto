@@ -5,22 +5,15 @@ package cosmos.restaking.v1beta1;
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
-import "cosmos/restaking/v1beta1/params.proto";
 import "cosmos/restaking/v1beta1/sell_order_book.proto";
 import "cosmos/restaking/v1beta1/buy_order_book.proto";
 import "cosmos/restaking/v1beta1/denom_trace.proto";
 import "cosmos/restaking/v1beta1/validator_token.proto";
 
-option go_package = "github.com/lightmos/lightmos-sdk/x/restaking/types";
+option go_package = "github.com/cosmos/cosmos-sdk/x/restaking/types";
 
 // Query defines the gRPC querier service.
 service Query {
-  
-  // Parameters queries the parameters of the module.
-  rpc Params (QueryParamsRequest) returns (QueryParamsResponse) {
-    option (google.api.http).get = "/cosmos/restaking/v1beta1/params";
-  
-  }
   
   // Queries a list of SellOrderBook items.
   rpc SellOrderBook    (QueryGetSellOrderBookRequest) returns (QueryGetSellOrderBookResponse) {
@@ -61,15 +54,6 @@ service Query {
     option (google.api.http).get = "/cosmos/restaking/v1beta1/validator_token";
   
   }
-}
-// QueryParamsRequest is request type for the Query/Params RPC method.
-message QueryParamsRequest {}
-
-// QueryParamsResponse is response type for the Query/Params RPC method.
-message QueryParamsResponse {
-  
-  // params holds all the parameters of this module.
-  Params params = 1 [(gogoproto.nullable) = false];
 }
 
 message QueryGetSellOrderBookRequest {
