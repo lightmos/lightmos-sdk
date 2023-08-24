@@ -7,16 +7,16 @@ import (
 	"github.com/cometbft/cometbft/libs/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codecTypes "github.com/cosmos/cosmos-sdk/codec/types"
-	serverTypes "github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/store/streaming"
-	"github.com/cosmos/cosmos-sdk/store/streaming/file"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/codec"
+	codecTypes "github.com/lightmos/lightmos-sdk/codec/types"
+	serverTypes "github.com/lightmos/lightmos-sdk/server/types"
+	"github.com/lightmos/lightmos-sdk/store/streaming"
+	"github.com/lightmos/lightmos-sdk/store/streaming/file"
+	"github.com/lightmos/lightmos-sdk/store/types"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/module/testutil"
 )
 
 type fakeOptions struct{}

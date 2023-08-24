@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
 )
 
 // TypeMsgCreateVestingAccount defines the type value for a MsgCreateVestingAccount.

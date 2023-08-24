@@ -3,17 +3,17 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/codec"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	simtypes "github.com/lightmos/lightmos-sdk/types/simulation"
+	"github.com/lightmos/lightmos-sdk/x/bank/keeper"
+	"github.com/lightmos/lightmos-sdk/x/bank/types"
+	distributiontypes "github.com/lightmos/lightmos-sdk/x/distribution/types"
+	"github.com/lightmos/lightmos-sdk/x/simulation"
 )
 
 // Simulation operation weights constants

@@ -3,8 +3,8 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 // Validator Set

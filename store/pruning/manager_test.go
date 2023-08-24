@@ -11,9 +11,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/store/pruning"
-	"github.com/cosmos/cosmos-sdk/store/pruning/mock"
-	"github.com/cosmos/cosmos-sdk/store/pruning/types"
+	"github.com/lightmos/lightmos-sdk/store/pruning"
+	"github.com/lightmos/lightmos-sdk/store/pruning/mock"
+	"github.com/lightmos/lightmos-sdk/store/pruning/types"
 )
 
 const dbErr = "db error"

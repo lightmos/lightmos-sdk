@@ -3,10 +3,10 @@ package tx
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/x/auth/migrations/legacytx"
+	"github.com/lightmos/lightmos-sdk/x/auth/signing"
 )
 
 // ConvertTxToStdTx converts a transaction to the legacy StdTx format

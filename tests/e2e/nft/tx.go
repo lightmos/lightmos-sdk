@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/nft"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	"github.com/lightmos/lightmos-sdk/testutil/network"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/nft"
 )
 
 const (

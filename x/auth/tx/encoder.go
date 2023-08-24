@@ -5,9 +5,9 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/lightmos/lightmos-sdk/codec"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	txtypes "github.com/lightmos/lightmos-sdk/types/tx"
 )
 
 // DefaultTxEncoder returns a default protobuf TxEncoder using the provided Marshaler

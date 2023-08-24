@@ -3,10 +3,10 @@ package tx
 import (
 	"fmt"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
 )
 
 // MaxGasWanted defines the max gas allowed.

@@ -4,8 +4,8 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	tmtypes "github.com/cometbft/cometbft/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/auth/migrations/legacytx"
 )
 
 const (

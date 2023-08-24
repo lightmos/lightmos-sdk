@@ -1,8 +1,8 @@
 package cli
 
 import (
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/x/evidence/types"
 
 	"github.com/spf13/cobra"
 )

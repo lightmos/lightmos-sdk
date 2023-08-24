@@ -7,12 +7,12 @@ import (
 	"github.com/cosmos/gogoproto/proto"
 	"github.com/stretchr/testify/suite"
 
-	sdktestutil "github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	sdktestutil "github.com/lightmos/lightmos-sdk/testutil"
+	"github.com/lightmos/lightmos-sdk/testutil/network"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	grpctypes "github.com/lightmos/lightmos-sdk/types/grpc"
+	"github.com/lightmos/lightmos-sdk/types/query"
+	"github.com/lightmos/lightmos-sdk/x/distribution/types"
 )
 
 type GRPCQueryTestSuite struct {

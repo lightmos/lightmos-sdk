@@ -7,9 +7,9 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/bank/types"
 )
 
 var (

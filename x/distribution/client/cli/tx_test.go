@@ -6,10 +6,10 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/secp256k1"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 func Test_splitAndCall_NoMessages(t *testing.T) {

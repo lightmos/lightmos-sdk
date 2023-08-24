@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/authz/client/cli"
-	authzclitestutil "github.com/cosmos/cosmos-sdk/x/authz/client/testutil"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/authz"
+	"github.com/lightmos/lightmos-sdk/x/authz/client/cli"
+	authzclitestutil "github.com/lightmos/lightmos-sdk/x/authz/client/testutil"
 )
 
 func (s *CLITestSuite) TestQueryAuthorizations() {

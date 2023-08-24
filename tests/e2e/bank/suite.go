@@ -9,17 +9,17 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/testutil"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/testutil"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	"github.com/lightmos/lightmos-sdk/testutil/network"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/types/query"
+	"github.com/lightmos/lightmos-sdk/x/bank/client/cli"
+	"github.com/lightmos/lightmos-sdk/x/bank/types"
 )
 
 type E2ETestSuite struct {

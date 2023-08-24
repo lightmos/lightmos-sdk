@@ -15,13 +15,13 @@ import (
 	"github.com/cometbft/cometbft/types"
 	tmtime "github.com/cometbft/cometbft/types/time"
 
-	"github.com/cosmos/cosmos-sdk/server/api"
-	servergrpc "github.com/cosmos/cosmos-sdk/server/grpc"
-	srvtypes "github.com/cosmos/cosmos-sdk/server/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/lightmos/lightmos-sdk/server/api"
+	servergrpc "github.com/lightmos/lightmos-sdk/server/grpc"
+	srvtypes "github.com/lightmos/lightmos-sdk/server/types"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/x/genutil"
+	genutiltypes "github.com/lightmos/lightmos-sdk/x/genutil/types"
 )
 
 func startInProcess(cfg Config, val *Validator) error {

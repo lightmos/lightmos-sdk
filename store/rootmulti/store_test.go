@@ -11,15 +11,15 @@ import (
 	"github.com/cometbft/cometbft/libs/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codecTypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/store/cachemulti"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	sdkmaps "github.com/cosmos/cosmos-sdk/store/internal/maps"
-	"github.com/cosmos/cosmos-sdk/store/listenkv"
-	pruningtypes "github.com/cosmos/cosmos-sdk/store/pruning/types"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/codec"
+	codecTypes "github.com/lightmos/lightmos-sdk/codec/types"
+	"github.com/lightmos/lightmos-sdk/store/cachemulti"
+	"github.com/lightmos/lightmos-sdk/store/iavl"
+	sdkmaps "github.com/lightmos/lightmos-sdk/store/internal/maps"
+	"github.com/lightmos/lightmos-sdk/store/listenkv"
+	pruningtypes "github.com/lightmos/lightmos-sdk/store/pruning/types"
+	"github.com/lightmos/lightmos-sdk/store/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
 )
 
 func TestStoreType(t *testing.T) {

@@ -7,14 +7,14 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/cosmos/cosmos-sdk/server/grpc/gogoreflection"
-	reflection "github.com/cosmos/cosmos-sdk/server/grpc/reflection/v2alpha1"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	_ "github.com/cosmos/cosmos-sdk/types/tx/amino" // Import amino.proto file for reflection
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/server/config"
+	"github.com/lightmos/lightmos-sdk/server/grpc/gogoreflection"
+	reflection "github.com/lightmos/lightmos-sdk/server/grpc/reflection/v2alpha1"
+	"github.com/lightmos/lightmos-sdk/server/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	_ "github.com/lightmos/lightmos-sdk/types/tx/amino" // Import amino.proto file for reflection
 )
 
 // StartGRPCServer starts a gRPC server on the given address.

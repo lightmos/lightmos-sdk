@@ -9,17 +9,17 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/stretchr/testify/require"
 
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	"github.com/cosmos/cosmos-sdk/x/gov/keeper"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/x/gov"
+	"github.com/lightmos/lightmos-sdk/x/gov/keeper"
+	"github.com/lightmos/lightmos-sdk/x/gov/types"
+	v1 "github.com/lightmos/lightmos-sdk/x/gov/types/v1"
+	"github.com/lightmos/lightmos-sdk/x/staking"
+	stakingkeeper "github.com/lightmos/lightmos-sdk/x/staking/keeper"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 func TestTickExpiredDepositPeriod(t *testing.T) {

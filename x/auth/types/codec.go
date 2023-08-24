@@ -1,16 +1,16 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	authzcodec "github.com/cosmos/cosmos-sdk/x/authz/codec"
-	govcodec "github.com/cosmos/cosmos-sdk/x/gov/codec"
-	groupcodec "github.com/cosmos/cosmos-sdk/x/group/codec"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/codec/legacy"
+	"github.com/lightmos/lightmos-sdk/codec/types"
+	cryptocodec "github.com/lightmos/lightmos-sdk/crypto/codec"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/auth/migrations/legacytx"
+	authzcodec "github.com/lightmos/lightmos-sdk/x/authz/codec"
+	govcodec "github.com/lightmos/lightmos-sdk/x/gov/codec"
+	groupcodec "github.com/lightmos/lightmos-sdk/x/group/codec"
 )
 
 // RegisterLegacyAminoCodec registers the account interfaces and concrete types on the

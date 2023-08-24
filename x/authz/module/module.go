@@ -14,19 +14,19 @@ import (
 
 	"cosmossdk.io/depinject"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdkclient "github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	store "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/authz/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/authz/keeper"
-	"github.com/cosmos/cosmos-sdk/x/authz/simulation"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	sdkclient "github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/codec"
+	cdctypes "github.com/lightmos/lightmos-sdk/codec/types"
+	store "github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/types/module"
+	simtypes "github.com/lightmos/lightmos-sdk/types/simulation"
+	"github.com/lightmos/lightmos-sdk/x/authz"
+	"github.com/lightmos/lightmos-sdk/x/authz/client/cli"
+	"github.com/lightmos/lightmos-sdk/x/authz/keeper"
+	"github.com/lightmos/lightmos-sdk/x/authz/simulation"
 )
 
 var (

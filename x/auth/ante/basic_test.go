@@ -4,13 +4,13 @@ import (
 	"strings"
 	"testing"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/ante"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	"github.com/lightmos/lightmos-sdk/crypto/types/multisig"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/types/tx/signing"
+	"github.com/lightmos/lightmos-sdk/x/auth/ante"
 	"github.com/stretchr/testify/require"
 )
 

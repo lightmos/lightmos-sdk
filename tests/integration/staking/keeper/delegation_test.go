@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"cosmossdk.io/simapp"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	banktestutil "github.com/lightmos/lightmos-sdk/x/bank/testutil"
+	"github.com/lightmos/lightmos-sdk/x/staking/keeper"
+	"github.com/lightmos/lightmos-sdk/x/staking/testutil"
+	"github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 func TestUnbondingDelegationsMaxEntries(t *testing.T) {

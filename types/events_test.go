@@ -8,9 +8,9 @@ import (
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/stretchr/testify/suite"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	testdata "github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	testdata "github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 type eventsTestSuite struct {

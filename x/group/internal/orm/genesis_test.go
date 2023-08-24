@@ -3,10 +3,10 @@ package orm
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/codec/types"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )
 

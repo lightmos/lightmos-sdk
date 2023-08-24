@@ -1,7 +1,7 @@
 package v1beta1
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 // DONTCOVER

@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	dbm "github.com/cometbft/cometbft-db"
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/store/gaskv"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/store"
+	"github.com/lightmos/lightmos-sdk/store/gaskv"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 type MockContext struct {

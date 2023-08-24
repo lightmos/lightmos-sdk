@@ -8,13 +8,13 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"cosmossdk.io/depinject"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-	"github.com/cosmos/cosmos-sdk/x/evidence/simulation"
-	"github.com/cosmos/cosmos-sdk/x/evidence/testutil"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/kv"
+	"github.com/lightmos/lightmos-sdk/x/evidence/keeper"
+	"github.com/lightmos/lightmos-sdk/x/evidence/simulation"
+	"github.com/lightmos/lightmos-sdk/x/evidence/testutil"
+	"github.com/lightmos/lightmos-sdk/x/evidence/types"
 )
 
 func TestDecodeStore(t *testing.T) {

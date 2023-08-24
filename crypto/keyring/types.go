@@ -1,8 +1,8 @@
 package keyring
 
 import (
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/lightmos/lightmos-sdk/crypto/hd"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
 )
 
 // Language is a language to create the BIP 39 mnemonic in.

@@ -5,8 +5,8 @@ import (
 
 	proto "github.com/cosmos/gogoproto/proto"
 
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	cdctypes "github.com/lightmos/lightmos-sdk/codec/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
 )
 
 // NewGrant returns new Grant. Expiration is optional and noop if null.

@@ -3,8 +3,8 @@ package keeper // noalias
 import (
 	"bytes"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 // does a certain by-power index record exist

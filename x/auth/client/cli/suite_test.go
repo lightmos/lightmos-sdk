@@ -13,28 +13,28 @@ import (
 	rpcclientmock "github.com/cometbft/cometbft/rpc/client/mock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	testutilmod "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authcli "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
-	authtestutil "github.com/cosmos/cosmos-sdk/x/auth/client/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	govtestutil "github.com/cosmos/cosmos-sdk/x/gov/client/testutil"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/crypto/hd"
+	"github.com/lightmos/lightmos-sdk/crypto/keyring"
+	kmultisig "github.com/lightmos/lightmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	testutilmod "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	"github.com/lightmos/lightmos-sdk/types/tx"
+	"github.com/lightmos/lightmos-sdk/x/auth"
+	authcli "github.com/lightmos/lightmos-sdk/x/auth/client/cli"
+	authtestutil "github.com/lightmos/lightmos-sdk/x/auth/client/testutil"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	"github.com/lightmos/lightmos-sdk/x/bank"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/x/genutil/client/cli"
+	"github.com/lightmos/lightmos-sdk/x/gov"
+	govtestutil "github.com/lightmos/lightmos-sdk/x/gov/client/testutil"
+	govtypes "github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
 )
 
 type CLITestSuite struct {
@@ -841,7 +841,7 @@ func (s *CLITestSuite) TestQueryParamsCmd() {
 
 // TestTxWithoutPublicKey makes sure sending a proto tx message without the
 // public key doesn't cause any error in the RPC layer (broadcast).
-// See https://github.com/cosmos/cosmos-sdk/issues/7585 for more details.
+// See https://github.com/lightmos/lightmos-sdk/issues/7585 for more details.
 func (s *CLITestSuite) TestTxWithoutPublicKey() {
 	txCfg := s.clientCtx.TxConfig
 

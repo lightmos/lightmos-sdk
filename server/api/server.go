@@ -15,11 +15,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/codec/legacy"
+	"github.com/lightmos/lightmos-sdk/server/config"
+	"github.com/lightmos/lightmos-sdk/telemetry"
+	grpctypes "github.com/lightmos/lightmos-sdk/types/grpc"
 )
 
 // Server defines the server's API interface.

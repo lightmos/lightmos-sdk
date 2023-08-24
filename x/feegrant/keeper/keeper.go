@@ -6,13 +6,13 @@ import (
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/ante"
-	"github.com/cosmos/cosmos-sdk/x/feegrant"
+	"github.com/lightmos/lightmos-sdk/codec"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/x/auth/ante"
+	"github.com/lightmos/lightmos-sdk/x/feegrant"
 )
 
 // Keeper manages state of all fee grants, as well as calculating approval.

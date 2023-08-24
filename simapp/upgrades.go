@@ -1,22 +1,22 @@
 package simapp
 
 import (
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	consensustypes "github.com/cosmos/cosmos-sdk/x/consensus/types"
-	crisistypes "github.com/cosmos/cosmos-sdk/x/crisis/types"
-	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	govv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
-	paramstypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/module"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	consensustypes "github.com/lightmos/lightmos-sdk/x/consensus/types"
+	crisistypes "github.com/lightmos/lightmos-sdk/x/crisis/types"
+	distrtypes "github.com/lightmos/lightmos-sdk/x/distribution/types"
+	govtypes "github.com/lightmos/lightmos-sdk/x/gov/types"
+	govv1 "github.com/lightmos/lightmos-sdk/x/gov/types/v1"
+	minttypes "github.com/lightmos/lightmos-sdk/x/mint/types"
+	paramstypes "github.com/lightmos/lightmos-sdk/x/params/types"
+	slashingtypes "github.com/lightmos/lightmos-sdk/x/slashing/types"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
+	upgradetypes "github.com/lightmos/lightmos-sdk/x/upgrade/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the sample SimApp upgrade
@@ -66,7 +66,7 @@ func (app SimApp) RegisterUpgradeHandlers() {
 			baseapp.MigrateParams(ctx, baseAppLegacySS, &app.ConsensusParamsKeeper)
 
 			// Note: this migration is optional,
-			// You can include x/gov proposal migration documented in [UPGRADING.md](https://github.com/cosmos/cosmos-sdk/blob/main/UPGRADING.md)
+			// You can include x/gov proposal migration documented in [UPGRADING.md](https://github.com/lightmos/lightmos-sdk/blob/main/UPGRADING.md)
 
 			return app.ModuleManager.RunMigrations(ctx, app.Configurator(), fromVM)
 		},

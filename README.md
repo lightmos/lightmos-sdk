@@ -5,7 +5,7 @@
 ![banner](docs/static/img/banner.jpg)
 
 <div align="center">
-  <a href="https://github.com/cosmos/cosmos-sdk/blob/main/LICENSE">
+  <a href="https://github.com/lightmos/lightmos-sdk/blob/main/LICENSE">
     <img alt="License: Apache-2.0" src="https://img.shields.io/github/license/cosmos/cosmos-sdk.svg" />
   </a>
   <a href="https://pkg.go.dev/github.com/cosmos/cosmos-sdk">
@@ -23,10 +23,10 @@
     <img alt="Discord" src="https://img.shields.io/discord/669268347736686612.svg" />
   </a>
   <a href="https://sourcegraph.com/github.com/cosmos/cosmos-sdk?badge">
-    <img alt="Imported by" src="https://sourcegraph.com/github.com/cosmos/cosmos-sdk/-/badge.svg" />
+    <img alt="Imported by" src="https://sourcegraph.com/github.com/lightmos/lightmos-sdk/-/badge.svg" />
   </a>
-    <img alt="Sims" src="https://github.com/cosmos/cosmos-sdk/workflows/Sims/badge.svg" />
-    <img alt="Lint Satus" src="https://github.com/cosmos/cosmos-sdk/workflows/Lint/badge.svg" />
+    <img alt="Sims" src="https://github.com/lightmos/lightmos-sdk/workflows/Sims/badge.svg" />
+    <img alt="Lint Satus" src="https://github.com/lightmos/lightmos-sdk/workflows/Lint/badge.svg" />
 </div>
 
 The Cosmos SDK is a framework for building blockchain applications. [Tendermint Core (BFT Consensus)](https://github.com/tendermint/tendermint) and the Cosmos SDK are written in the Go programming language. Cosmos SDK is used to build [Gaia](https://github.com/cosmos/gaia), the implementation of the Cosmos Hub.

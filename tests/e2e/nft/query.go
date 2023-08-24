@@ -1,7 +1,7 @@
 package nft
 
 import (
-	"github.com/cosmos/cosmos-sdk/x/nft"
+	"github.com/lightmos/lightmos-sdk/x/nft"
 )
 
 func (s *E2ETestSuite) TestQueryClass() {

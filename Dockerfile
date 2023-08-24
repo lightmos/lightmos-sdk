@@ -45,4 +45,4 @@ STOPSIGNAL SIGTERM
 WORKDIR /root
 
 # Copy over binaries from the build-env
-COPY --from=build-env /go/src/github.com/cosmos/cosmos-sdk/build/simd /usr/bin/simd
+COPY --from=build-env /go/src/github.com/lightmos/lightmos-sdk/build/simd /usr/bin/simd

@@ -8,16 +8,16 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/authz/keeper"
-	authzmodule "github.com/cosmos/cosmos-sdk/x/authz/module"
-	authztestutil "github.com/cosmos/cosmos-sdk/x/authz/testutil"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/golang/mock/gomock"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/secp256k1"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	"github.com/lightmos/lightmos-sdk/x/authz/keeper"
+	authzmodule "github.com/lightmos/lightmos-sdk/x/authz/module"
+	authztestutil "github.com/lightmos/lightmos-sdk/x/authz/testutil"
+	bank "github.com/lightmos/lightmos-sdk/x/bank/types"
 )
 
 type GenesisTestSuite struct {

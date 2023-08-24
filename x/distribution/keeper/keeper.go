@@ -5,11 +5,11 @@ import (
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/x/distribution/types"
 )
 
 // Keeper of the distribution store

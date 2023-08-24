@@ -10,15 +10,15 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution"
-	"github.com/cosmos/cosmos-sdk/x/distribution/keeper"
-	distrtestutil "github.com/cosmos/cosmos-sdk/x/distribution/testutil"
-	disttypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	"github.com/lightmos/lightmos-sdk/x/distribution"
+	"github.com/lightmos/lightmos-sdk/x/distribution/keeper"
+	distrtestutil "github.com/lightmos/lightmos-sdk/x/distribution/testutil"
+	disttypes "github.com/lightmos/lightmos-sdk/x/distribution/types"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 func TestAllocateTokensToValidatorWithCommission(t *testing.T) {

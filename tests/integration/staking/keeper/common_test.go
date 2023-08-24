@@ -8,15 +8,15 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"cosmossdk.io/simapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	govtypes "github.com/lightmos/lightmos-sdk/x/gov/types"
+	"github.com/lightmos/lightmos-sdk/x/staking/keeper"
+	"github.com/lightmos/lightmos-sdk/x/staking/testutil"
+	"github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 var PKs = simtestutil.CreateTestPubKeys(500)

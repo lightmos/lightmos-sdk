@@ -23,13 +23,13 @@ import (
 	tmtypes "github.com/cometbft/cometbft/types"
 
 	"cosmossdk.io/simapp"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/server"
+	"github.com/lightmos/lightmos-sdk/server/types"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	"github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/x/genutil"
 )
 
 func TestExportCmd_ConsensusParams(t *testing.T) {

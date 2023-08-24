@@ -4,12 +4,12 @@ import (
 	"testing"
 
 	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	"github.com/lightmos/lightmos-sdk/x/gov/types"
+	v1 "github.com/lightmos/lightmos-sdk/x/gov/types/v1"
+	"github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/require"
 )
 

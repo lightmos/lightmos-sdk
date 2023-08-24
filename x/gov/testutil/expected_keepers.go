@@ -5,10 +5,10 @@ package testutil
 import (
 	math "cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	bankkeeper "github.com/lightmos/lightmos-sdk/x/bank/keeper"
+	"github.com/lightmos/lightmos-sdk/x/gov/types"
 )
 
 // AccountKeeper extends gov's actual expected AccountKeeper with additional

@@ -5,10 +5,10 @@ import (
 
 	tmtypes "github.com/cometbft/cometbft/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/consensus/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/x/consensus/types"
+	govtypes "github.com/lightmos/lightmos-sdk/x/gov/types"
 )
 
 type msgServer struct {

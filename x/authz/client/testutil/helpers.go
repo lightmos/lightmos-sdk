@@ -1,10 +1,10 @@
 package authz
 
 import (
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/x/authz/client/cli"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	"github.com/lightmos/lightmos-sdk/x/authz/client/cli"
 )
 
 func CreateGrant(clientCtx client.Context, args []string) (testutil.BufferWriter, error) {

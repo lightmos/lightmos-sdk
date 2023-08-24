@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/lightmos/lightmos-sdk/version"
 
 	abcitypes "github.com/cometbft/cometbft/abci/types"
 
@@ -25,14 +25,14 @@ import (
 	crgerrs "cosmossdk.io/tools/rosetta/lib/errors"
 	crgtypes "cosmossdk.io/tools/rosetta/lib/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	auth "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	grpctypes "github.com/lightmos/lightmos-sdk/types/grpc"
+	authtx "github.com/lightmos/lightmos-sdk/x/auth/tx"
+	auth "github.com/lightmos/lightmos-sdk/x/auth/types"
+	bank "github.com/lightmos/lightmos-sdk/x/bank/types"
 
 	tmrpc "github.com/cometbft/cometbft/rpc/client"
-	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/lightmos/lightmos-sdk/types/query"
 )
 
 // interface assertion

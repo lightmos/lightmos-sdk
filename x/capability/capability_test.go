@@ -7,17 +7,17 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/capability"
-	"github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	"github.com/cosmos/cosmos-sdk/x/capability/testutil"
-	"github.com/cosmos/cosmos-sdk/x/capability/types"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/runtime"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/x/capability"
+	"github.com/lightmos/lightmos-sdk/x/capability/keeper"
+	"github.com/lightmos/lightmos-sdk/x/capability/testutil"
+	"github.com/lightmos/lightmos-sdk/x/capability/types"
 )
 
 type CapabilityTestSuite struct {
@@ -49,7 +49,7 @@ func (suite *CapabilityTestSuite) SetupTest() {
 	suite.ctx = app.BaseApp.NewContext(false, tmproto.Header{Height: 1})
 }
 
-// The following test case mocks a specific bug discovered in https://github.com/cosmos/cosmos-sdk/issues/9800
+// The following test case mocks a specific bug discovered in https://github.com/lightmos/lightmos-sdk/issues/9800
 // and ensures that the current code successfully fixes the issue.
 func (suite *CapabilityTestSuite) TestInitializeMemStore() {
 	sk1 := suite.keeper.ScopeToModule(banktypes.ModuleName)

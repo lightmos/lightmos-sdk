@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/module"
+	"github.com/lightmos/lightmos-sdk/types/simulation"
+	"github.com/lightmos/lightmos-sdk/x/slashing/types"
 )
 
 // Simulation parameter constants

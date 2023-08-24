@@ -5,13 +5,13 @@ import (
 
 	"cosmossdk.io/math"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	sdktx "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/x/gov/codec"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	sdktx "github.com/lightmos/lightmos-sdk/types/tx"
+	"github.com/lightmos/lightmos-sdk/x/gov/codec"
+	"github.com/lightmos/lightmos-sdk/x/gov/types"
+	"github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
 )
 
 var (

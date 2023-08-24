@@ -6,14 +6,14 @@ import (
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/codec"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	"github.com/lightmos/lightmos-sdk/x/gov/types"
+	v1 "github.com/lightmos/lightmos-sdk/x/gov/types/v1"
+	"github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
 )
 
 // Keeper defines the governance module Keeper

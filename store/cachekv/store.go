@@ -9,11 +9,11 @@ import (
 	dbm "github.com/cometbft/cometbft-db"
 	"github.com/cometbft/cometbft/libs/math"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	"github.com/cosmos/cosmos-sdk/store/cachekv/internal"
-	"github.com/cosmos/cosmos-sdk/store/tracekv"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/lightmos/lightmos-sdk/internal/conv"
+	"github.com/lightmos/lightmos-sdk/store/cachekv/internal"
+	"github.com/lightmos/lightmos-sdk/store/tracekv"
+	"github.com/lightmos/lightmos-sdk/store/types"
+	"github.com/lightmos/lightmos-sdk/types/kv"
 )
 
 // cValue represents a cached value.

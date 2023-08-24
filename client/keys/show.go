@@ -7,13 +7,13 @@ import (
 	"github.com/cometbft/cometbft/libs/cli"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/ledger"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerr "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/crypto/keyring"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/multisig"
+	"github.com/lightmos/lightmos-sdk/crypto/ledger"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerr "github.com/lightmos/lightmos-sdk/types/errors"
 )
 
 const (

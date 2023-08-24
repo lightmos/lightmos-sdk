@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	"cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/staking"
+	"github.com/lightmos/lightmos-sdk/x/staking/testutil"
+	"github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 func BenchmarkValidateGenesis10Validators(b *testing.B) {

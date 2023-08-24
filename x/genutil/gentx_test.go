@@ -9,20 +9,20 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/secp256k1"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
 
 	abci "github.com/cometbft/cometbft/abci/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltestutil "github.com/cosmos/cosmos-sdk/x/genutil/testutil"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/golang/mock/gomock"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/x/genutil"
+	genutiltestutil "github.com/lightmos/lightmos-sdk/x/genutil/testutil"
+	"github.com/lightmos/lightmos-sdk/x/genutil/types"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/suite"
 )
 

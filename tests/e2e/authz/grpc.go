@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/authz/client/cli"
-	authzclitestutil "github.com/cosmos/cosmos-sdk/x/authz/client/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/authz"
+	"github.com/lightmos/lightmos-sdk/x/authz/client/cli"
+	authzclitestutil "github.com/lightmos/lightmos-sdk/x/authz/client/testutil"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
 )
 
 func (s *E2ETestSuite) TestQueryGrantGRPC() {
@@ -211,7 +211,7 @@ func (s *E2ETestSuite) TestQueryGranterGrantsGRPC() {
 				var authorizations authz.QueryGranterGrantsResponse
 				err := val.ClientCtx.Codec.UnmarshalJSON(resp, &authorizations)
 				require.NoError(err)
-				// FIXME: https://github.com/cosmos/cosmos-sdk/issues/10965
+				// FIXME: https://github.com/lightmos/lightmos-sdk/issues/10965
 				require.Len(authorizations.Grants, tc.numItems)
 			}
 		})
@@ -263,7 +263,7 @@ func (s *E2ETestSuite) TestQueryGranteeGrantsGRPC() {
 				var authorizations authz.QueryGranteeGrantsResponse
 				err := val.ClientCtx.Codec.UnmarshalJSON(resp, &authorizations)
 				require.NoError(err)
-				// FIXME: https://github.com/cosmos/cosmos-sdk/issues/10965
+				// FIXME: https://github.com/lightmos/lightmos-sdk/issues/10965
 				require.Len(authorizations.Grants, tc.numItems)
 			}
 		})

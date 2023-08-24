@@ -10,9 +10,9 @@ import (
 	tmtypes "github.com/cometbft/cometbft/types"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/server/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 const (

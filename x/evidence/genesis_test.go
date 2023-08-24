@@ -9,14 +9,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/keeper"
-	"github.com/cosmos/cosmos-sdk/x/evidence/testutil"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/ed25519"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/evidence"
+	"github.com/lightmos/lightmos-sdk/x/evidence/exported"
+	"github.com/lightmos/lightmos-sdk/x/evidence/keeper"
+	"github.com/lightmos/lightmos-sdk/x/evidence/testutil"
+	"github.com/lightmos/lightmos-sdk/x/evidence/types"
 )
 
 type GenesisTestSuite struct {

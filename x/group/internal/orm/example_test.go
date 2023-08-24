@@ -1,8 +1,8 @@
 package orm
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
 )
 
 type TestKeeper struct {

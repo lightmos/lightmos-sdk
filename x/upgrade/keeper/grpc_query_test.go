@@ -7,17 +7,17 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/module"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	govtypes "github.com/lightmos/lightmos-sdk/x/gov/types"
+	"github.com/lightmos/lightmos-sdk/x/upgrade"
 
-	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/lightmos/lightmos-sdk/x/upgrade/keeper"
+	"github.com/lightmos/lightmos-sdk/x/upgrade/types"
 )
 
 type UpgradeTestSuite struct {

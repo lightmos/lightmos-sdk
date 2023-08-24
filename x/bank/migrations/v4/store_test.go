@@ -3,13 +3,13 @@ package v4_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	"github.com/cosmos/cosmos-sdk/x/bank/exported"
-	v4 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v4"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	"github.com/lightmos/lightmos-sdk/x/bank"
+	"github.com/lightmos/lightmos-sdk/x/bank/exported"
+	v4 "github.com/lightmos/lightmos-sdk/x/bank/migrations/v4"
+	"github.com/lightmos/lightmos-sdk/x/bank/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/lightmos/lightmos-sdk/codec/types"
 )
 
 type Animal interface {

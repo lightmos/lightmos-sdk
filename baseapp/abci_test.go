@@ -13,17 +13,17 @@ import (
 	"github.com/cosmos/gogoproto/jsonpb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	baseapptestutil "github.com/cosmos/cosmos-sdk/baseapp/testutil"
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	pruningtypes "github.com/cosmos/cosmos-sdk/store/pruning/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/mempool"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	baseapptestutil "github.com/lightmos/lightmos-sdk/baseapp/testutil"
+	"github.com/lightmos/lightmos-sdk/snapshots"
+	snapshottypes "github.com/lightmos/lightmos-sdk/snapshots/types"
+	pruningtypes "github.com/lightmos/lightmos-sdk/store/pruning/types"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/types/mempool"
+	"github.com/lightmos/lightmos-sdk/x/auth/signing"
 )
 
 func TestABCI_Info(t *testing.T) {

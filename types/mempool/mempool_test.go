@@ -10,15 +10,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/mempool"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	txsigning "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
-	"github.com/cosmos/cosmos-sdk/x/distribution"
-	"github.com/cosmos/cosmos-sdk/x/gov"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/mempool"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	simtypes "github.com/lightmos/lightmos-sdk/types/simulation"
+	txsigning "github.com/lightmos/lightmos-sdk/types/tx/signing"
+	"github.com/lightmos/lightmos-sdk/x/auth/signing"
+	"github.com/lightmos/lightmos-sdk/x/distribution"
+	"github.com/lightmos/lightmos-sdk/x/gov"
 )
 
 // testPubKey is a dummy implementation of PubKey used for testing.

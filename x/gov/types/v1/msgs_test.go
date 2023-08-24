@@ -7,10 +7,10 @@ import (
 	"cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	v1 "github.com/lightmos/lightmos-sdk/x/gov/types/v1"
+	"github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
 )
 
 var (

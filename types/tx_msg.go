@@ -6,8 +6,8 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
 )
 
 type (

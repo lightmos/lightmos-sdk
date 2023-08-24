@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	"github.com/lightmos/lightmos-sdk/testutil/network"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/upgrade/client/cli"
+	"github.com/lightmos/lightmos-sdk/x/upgrade/keeper"
+	"github.com/lightmos/lightmos-sdk/x/upgrade/types"
 )
 
 func NewE2ETestSuite(cfg network.Config, keeper *keeper.Keeper, ctx sdk.Context) *E2ETestSuite {

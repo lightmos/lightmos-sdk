@@ -3,20 +3,20 @@ package params_test
 import (
 	"testing"
 
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/params"
-	"github.com/cosmos/cosmos-sdk/x/params/keeper"
-	paramstestutil "github.com/cosmos/cosmos-sdk/x/params/testutil"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	govv1beta1 "github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
+	"github.com/lightmos/lightmos-sdk/x/params"
+	"github.com/lightmos/lightmos-sdk/x/params/keeper"
+	paramstestutil "github.com/lightmos/lightmos-sdk/x/params/testutil"
+	paramtypes "github.com/lightmos/lightmos-sdk/x/params/types"
+	"github.com/lightmos/lightmos-sdk/x/params/types/proposal"
 )
 
 // StakingKeeper defines the expected staking keeper

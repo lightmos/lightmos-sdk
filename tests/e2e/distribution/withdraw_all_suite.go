@@ -7,15 +7,15 @@ import (
 	"cosmossdk.io/simapp"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/client/cli"
-	stakingcli "github.com/cosmos/cosmos-sdk/x/staking/client/cli"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/crypto/hd"
+	"github.com/lightmos/lightmos-sdk/crypto/keyring"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	"github.com/lightmos/lightmos-sdk/testutil/network"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/distribution/client/cli"
+	stakingcli "github.com/lightmos/lightmos-sdk/x/staking/client/cli"
 )
 
 type WithdrawAllTestSuite struct {

@@ -6,13 +6,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/lightmos/lightmos-sdk/codec"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	txtypes "github.com/lightmos/lightmos-sdk/types/tx"
+	signingtypes "github.com/lightmos/lightmos-sdk/types/tx/signing"
+	"github.com/lightmos/lightmos-sdk/x/auth/signing"
 )
 
 func TestDirectAuxHandler(t *testing.T) {

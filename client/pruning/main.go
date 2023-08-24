@@ -10,11 +10,11 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	servertypes "github.com/cosmos/cosmos-sdk/server/types"
-	pruningtypes "github.com/cosmos/cosmos-sdk/store/pruning/types"
-	"github.com/cosmos/cosmos-sdk/store/rootmulti"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/server"
+	servertypes "github.com/lightmos/lightmos-sdk/server/types"
+	pruningtypes "github.com/lightmos/lightmos-sdk/store/pruning/types"
+	"github.com/lightmos/lightmos-sdk/store/rootmulti"
 )
 
 const FlagAppDBBackend = "app-db-backend"

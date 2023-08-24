@@ -10,10 +10,10 @@ import (
 
 	crg "cosmossdk.io/tools/rosetta/lib/server"
 
-	clientflags "github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	clientflags "github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/codec"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 // configuration defaults constants

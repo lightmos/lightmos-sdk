@@ -8,9 +8,9 @@ import (
 	"math/rand"
 
 	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/mint/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/module"
+	"github.com/lightmos/lightmos-sdk/x/mint/types"
 )
 
 // Simulation parameter constants

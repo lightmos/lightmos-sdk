@@ -11,12 +11,12 @@ import (
 
 	"cosmossdk.io/depinject"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/testutil"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/secp256k1"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	authkeeper "github.com/lightmos/lightmos-sdk/x/auth/keeper"
+	"github.com/lightmos/lightmos-sdk/x/auth/testutil"
+	"github.com/lightmos/lightmos-sdk/x/auth/types"
 )
 
 func TestBaseAddressPubKey(t *testing.T) {

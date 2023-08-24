@@ -5,8 +5,8 @@ import (
 
 	"github.com/cometbft/cometbft/crypto"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/slashing/types"
 )
 
 var _ types.StakingHooks = Hooks{}

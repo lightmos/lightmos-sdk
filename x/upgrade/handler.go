@@ -1,11 +1,11 @@
 package upgrade
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	govtypes "github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
+	"github.com/lightmos/lightmos-sdk/x/upgrade/keeper"
+	"github.com/lightmos/lightmos-sdk/x/upgrade/types"
 )
 
 // NewSoftwareUpgradeProposalHandler creates a governance handler to manage new proposal types.

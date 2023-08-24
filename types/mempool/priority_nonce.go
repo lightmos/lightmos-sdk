@@ -7,8 +7,8 @@ import (
 
 	"github.com/huandu/skiplist"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/auth/signing"
 )
 
 var (

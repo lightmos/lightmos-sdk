@@ -14,15 +14,15 @@ import (
 	tmjson "github.com/cometbft/cometbft/libs/json"
 	tmtypes "github.com/cometbft/cometbft/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	simcli "github.com/cosmos/cosmos-sdk/x/simulation/client/cli"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/secp256k1"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/module"
+	simtypes "github.com/lightmos/lightmos-sdk/types/simulation"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	simcli "github.com/lightmos/lightmos-sdk/x/simulation/client/cli"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 // Simulation parameter constants

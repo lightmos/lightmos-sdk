@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 
 	"github.com/coinbase/rosetta-sdk-go/types"
 

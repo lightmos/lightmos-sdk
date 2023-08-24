@@ -8,16 +8,16 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/lightmos/lightmos-sdk/codec"
+	cryptocodec "github.com/lightmos/lightmos-sdk/crypto/codec"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/lightmos/lightmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/types/tx"
+	"github.com/lightmos/lightmos-sdk/types/tx/signing"
 )
 
 var (

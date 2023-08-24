@@ -40,7 +40,7 @@ import (
 
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 const Paramspace = "baseapp"

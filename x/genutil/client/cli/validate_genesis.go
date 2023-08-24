@@ -7,12 +7,12 @@ import (
 	tmtypes "github.com/cometbft/cometbft/types"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/server"
+	"github.com/lightmos/lightmos-sdk/types/module"
 )
 
-const chainUpgradeGuide = "https://github.com/cosmos/cosmos-sdk/blob/main/UPGRADING.md"
+const chainUpgradeGuide = "https://github.com/lightmos/lightmos-sdk/blob/main/UPGRADING.md"
 
 // ValidateGenesisCmd takes a genesis file, and makes sure that it is valid.
 func ValidateGenesisCmd(mbm module.BasicManager) *cobra.Command {

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/kv"
+	"github.com/lightmos/lightmos-sdk/x/distribution/types"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

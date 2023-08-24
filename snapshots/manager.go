@@ -13,8 +13,8 @@ import (
 
 	"github.com/cometbft/cometbft/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/snapshots/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
 )
 
 // Manager manages snapshot and restore operations for an app, making sure only a single

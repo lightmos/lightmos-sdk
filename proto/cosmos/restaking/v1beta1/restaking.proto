@@ -20,19 +20,19 @@ message CommissionRates {
     // rate is the commission rate charged to delegators, as a fraction.
     string rate = 1 [
       (cosmos_proto.scalar)  = "cosmos.Dec",
-      (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Dec",
+      (gogoproto.customtype) = "github.com/lightmos/lightmos-sdk/types.Dec",
       (gogoproto.nullable)   = false
     ];
     // max_rate defines the maximum commission rate which validator can ever charge, as a fraction.
     string max_rate = 2 [
       (cosmos_proto.scalar)  = "cosmos.Dec",
-      (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Dec",
+      (gogoproto.customtype) = "github.com/lightmos/lightmos-sdk/types.Dec",
       (gogoproto.nullable)   = false
     ];
     // max_change_rate defines the maximum daily increase of the validator commission, as a fraction.
     string max_change_rate = 3 [
       (cosmos_proto.scalar)  = "cosmos.Dec",
-      (gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Dec",
+      (gogoproto.customtype) = "github.com/lightmos/lightmos-sdk/types.Dec",
       (gogoproto.nullable)   = false
     ];
   }

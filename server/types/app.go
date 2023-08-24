@@ -13,11 +13,11 @@ import (
 	"github.com/cosmos/gogoproto/grpc"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/server/api"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/server/api"
+	"github.com/lightmos/lightmos-sdk/server/config"
+	"github.com/lightmos/lightmos-sdk/snapshots"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
 )
 
 // ServerStartTime defines the time duration that the server need to stay running after startup

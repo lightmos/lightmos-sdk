@@ -2,10 +2,10 @@ package types
 
 import (
 	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	auth "github.com/cosmos/cosmos-sdk/x/auth/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	auth "github.com/lightmos/lightmos-sdk/x/auth/types"
+	paramtypes "github.com/lightmos/lightmos-sdk/x/params/types"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 // AccountKeeper expected account keeper

@@ -3,8 +3,8 @@ package keeper
 import (
 	"cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/distribution/types"
 )
 
 // GetParams returns the total set of distribution parameters.

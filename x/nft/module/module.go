@@ -11,21 +11,21 @@ import (
 	"cosmossdk.io/core/appmodule"
 	"cosmossdk.io/depinject"
 
-	sdkclient "github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	store "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	sdkclient "github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/codec"
+	cdctypes "github.com/lightmos/lightmos-sdk/codec/types"
+	store "github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/types/module"
+	simtypes "github.com/lightmos/lightmos-sdk/types/simulation"
 
 	modulev1 "cosmossdk.io/api/cosmos/nft/module/v1"
 
-	"github.com/cosmos/cosmos-sdk/x/nft"
-	"github.com/cosmos/cosmos-sdk/x/nft/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/nft/keeper"
-	"github.com/cosmos/cosmos-sdk/x/nft/simulation"
+	"github.com/lightmos/lightmos-sdk/x/nft"
+	"github.com/lightmos/lightmos-sdk/x/nft/client/cli"
+	"github.com/lightmos/lightmos-sdk/x/nft/keeper"
+	"github.com/lightmos/lightmos-sdk/x/nft/simulation"
 )
 
 var (

@@ -10,8 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	"github.com/hashicorp/go-getter"
+	upgradetypes "github.com/lightmos/lightmos-sdk/x/upgrade/types"
 	"github.com/otiai10/copy"
 	"github.com/rs/zerolog"
 )

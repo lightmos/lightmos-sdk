@@ -5,8 +5,8 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	"github.com/lightmos/lightmos-sdk/x/params/types/proposal"
 )
 
 func (s *E2ETestSuite) TestQueryParamsGRPC() {

@@ -7,16 +7,16 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/mint"
-	"github.com/cosmos/cosmos-sdk/x/mint/keeper"
-	minttestutil "github.com/cosmos/cosmos-sdk/x/mint/testutil"
-	"github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	govtypes "github.com/lightmos/lightmos-sdk/x/gov/types"
+	"github.com/lightmos/lightmos-sdk/x/mint"
+	"github.com/lightmos/lightmos-sdk/x/mint/keeper"
+	minttestutil "github.com/lightmos/lightmos-sdk/x/mint/testutil"
+	"github.com/lightmos/lightmos-sdk/x/mint/types"
 )
 
 type MintTestSuite struct {

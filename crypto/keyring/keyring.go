@@ -14,16 +14,16 @@ import (
 	tmcrypto "github.com/cometbft/cometbft/crypto"
 	"github.com/pkg/errors"
 
-	"github.com/cosmos/cosmos-sdk/client/input"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/bcrypt"
-	"github.com/cosmos/cosmos-sdk/crypto/ledger"
-	"github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/go-bip39"
+	"github.com/lightmos/lightmos-sdk/client/input"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/crypto"
+	"github.com/lightmos/lightmos-sdk/crypto/hd"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/bcrypt"
+	"github.com/lightmos/lightmos-sdk/crypto/ledger"
+	"github.com/lightmos/lightmos-sdk/crypto/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
 )
 
 // Backend options for Keyring

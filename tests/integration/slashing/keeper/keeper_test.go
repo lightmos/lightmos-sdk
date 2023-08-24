@@ -7,21 +7,21 @@ import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/slashing/testutil"
+	"github.com/lightmos/lightmos-sdk/x/staking"
 
-	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	slashingkeeper "github.com/cosmos/cosmos-sdk/x/slashing/keeper"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	stakingtestutil "github.com/cosmos/cosmos-sdk/x/staking/testutil"
+	authkeeper "github.com/lightmos/lightmos-sdk/x/auth/keeper"
+	bankkeeper "github.com/lightmos/lightmos-sdk/x/bank/keeper"
+	slashingkeeper "github.com/lightmos/lightmos-sdk/x/slashing/keeper"
+	stakingkeeper "github.com/lightmos/lightmos-sdk/x/staking/keeper"
+	stakingtestutil "github.com/lightmos/lightmos-sdk/x/staking/testutil"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	slashingtypes "github.com/lightmos/lightmos-sdk/x/slashing/types"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 // The default power validators are initialized to have within tests

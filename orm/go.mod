@@ -1,4 +1,4 @@
-module github.com/cosmos/cosmos-sdk/orm
+module github.com/lightmos/lightmos-sdk/orm
 
 go 1.19
 

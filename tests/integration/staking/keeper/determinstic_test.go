@@ -9,20 +9,20 @@ import (
 	"github.com/stretchr/testify/suite"
 	"pgregory.net/rapid"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	stakingtestutil "github.com/cosmos/cosmos-sdk/x/staking/testutil"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/ed25519"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	authkeeper "github.com/lightmos/lightmos-sdk/x/auth/keeper"
+	bankkeeper "github.com/lightmos/lightmos-sdk/x/bank/keeper"
+	banktestutil "github.com/lightmos/lightmos-sdk/x/bank/testutil"
+	minttypes "github.com/lightmos/lightmos-sdk/x/mint/types"
+	stakingkeeper "github.com/lightmos/lightmos-sdk/x/staking/keeper"
+	stakingtestutil "github.com/lightmos/lightmos-sdk/x/staking/testutil"
 
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 var (

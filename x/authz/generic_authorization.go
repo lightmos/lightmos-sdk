@@ -1,7 +1,7 @@
 package authz
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 var _ Authorization = &GenericAuthorization{}

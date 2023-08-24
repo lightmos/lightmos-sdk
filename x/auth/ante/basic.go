@@ -1,14 +1,14 @@
 package ante
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/lightmos/lightmos-sdk/codec/legacy"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/types/tx/signing"
+	"github.com/lightmos/lightmos-sdk/x/auth/migrations/legacytx"
+	authsigning "github.com/lightmos/lightmos-sdk/x/auth/signing"
 )
 
 // ValidateBasicDecorator will call tx.ValidateBasic and return any non-nil error.

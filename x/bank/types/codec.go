@@ -1,16 +1,16 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	authzcodec "github.com/cosmos/cosmos-sdk/x/authz/codec"
-	govcodec "github.com/cosmos/cosmos-sdk/x/gov/codec"
-	groupcodec "github.com/cosmos/cosmos-sdk/x/group/codec"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/codec/legacy"
+	"github.com/lightmos/lightmos-sdk/codec/types"
+	cryptocodec "github.com/lightmos/lightmos-sdk/crypto/codec"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/msgservice"
+	"github.com/lightmos/lightmos-sdk/x/authz"
+	authzcodec "github.com/lightmos/lightmos-sdk/x/authz/codec"
+	govcodec "github.com/lightmos/lightmos-sdk/x/gov/codec"
+	groupcodec "github.com/lightmos/lightmos-sdk/x/group/codec"
 )
 
 // RegisterLegacyAminoCodec registers the necessary x/bank interfaces and concrete types

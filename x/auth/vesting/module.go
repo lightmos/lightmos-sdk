@@ -9,18 +9,18 @@ import (
 
 	"cosmossdk.io/depinject"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/codec"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/module"
 
 	modulev1 "cosmossdk.io/api/cosmos/vesting/module/v1"
 	"cosmossdk.io/core/appmodule"
 
-	"github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
+	"github.com/lightmos/lightmos-sdk/x/auth/keeper"
+	"github.com/lightmos/lightmos-sdk/x/auth/vesting/client/cli"
+	"github.com/lightmos/lightmos-sdk/x/auth/vesting/types"
 )
 
 var (

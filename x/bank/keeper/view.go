@@ -6,12 +6,12 @@ import (
 	"cosmossdk.io/math"
 	"github.com/cometbft/cometbft/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/store/prefix"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/x/bank/types"
 )
 
 var _ ViewKeeper = (*BaseViewKeeper)(nil)
@@ -146,7 +146,7 @@ func (k BaseViewKeeper) IterateAllBalances(ctx sdk.Context, cb func(sdk.AccAddre
 		if err != nil {
 			k.Logger(ctx).With("key", iterator.Key(), "err", err).Error("failed to get address from balances store")
 			// TODO: revisit, for now, panic here to keep same behavior as in 0.42
-			// ref: https://github.com/cosmos/cosmos-sdk/issues/7409
+			// ref: https://github.com/lightmos/lightmos-sdk/issues/7409
 			panic(err)
 		}
 

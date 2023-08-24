@@ -10,13 +10,13 @@ import (
 	"github.com/cometbft/cometbft/libs/log"
 	"github.com/spf13/cast"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	servertypes "github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/store/streaming/file"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/codec"
+	servertypes "github.com/lightmos/lightmos-sdk/server/types"
+	"github.com/lightmos/lightmos-sdk/store/streaming/file"
+	"github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 // ServiceConstructor is used to construct a streaming service

@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"cosmossdk.io/math"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	paramtypes "github.com/lightmos/lightmos-sdk/x/params/types"
 )
 
 // Parameter store key

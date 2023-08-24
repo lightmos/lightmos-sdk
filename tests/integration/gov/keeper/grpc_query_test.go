@@ -4,9 +4,9 @@ import (
 	gocontext "context"
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	v1 "github.com/lightmos/lightmos-sdk/x/gov/types/v1"
+	"github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
 )
 
 func (suite *KeeperTestSuite) TestGRPCQueryTally() {

@@ -9,10 +9,10 @@ import (
 	reflect "reflect"
 
 	types "github.com/cometbft/cometbft/abci/types"
-	codec "github.com/cosmos/cosmos-sdk/codec"
-	types0 "github.com/cosmos/cosmos-sdk/types"
-	types1 "github.com/cosmos/cosmos-sdk/x/auth/types"
-	exported "github.com/cosmos/cosmos-sdk/x/bank/exported"
+	codec "github.com/lightmos/lightmos-sdk/codec"
+	types0 "github.com/lightmos/lightmos-sdk/types"
+	types1 "github.com/lightmos/lightmos-sdk/x/auth/types"
+	exported "github.com/lightmos/lightmos-sdk/x/bank/exported"
 	gomock "github.com/golang/mock/gomock"
 )
 

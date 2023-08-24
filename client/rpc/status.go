@@ -9,10 +9,10 @@ import (
 	"github.com/cometbft/cometbft/p2p"
 	coretypes "github.com/cometbft/cometbft/rpc/core/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	cryptocodec "github.com/lightmos/lightmos-sdk/crypto/codec"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
 )
 
 // ValidatorInfo is info about the node's validator, same as Tendermint,

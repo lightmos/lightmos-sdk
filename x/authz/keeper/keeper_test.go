@@ -10,16 +10,16 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	authzkeeper "github.com/cosmos/cosmos-sdk/x/authz/keeper"
-	authzmodule "github.com/cosmos/cosmos-sdk/x/authz/module"
-	authztestutil "github.com/cosmos/cosmos-sdk/x/authz/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	"github.com/lightmos/lightmos-sdk/x/authz"
+	authzkeeper "github.com/lightmos/lightmos-sdk/x/authz/keeper"
+	authzmodule "github.com/lightmos/lightmos-sdk/x/authz/module"
+	authztestutil "github.com/lightmos/lightmos-sdk/x/authz/testutil"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
 )
 
 var (
@@ -295,7 +295,7 @@ func (s *TestSuite) TestDispatchAction() {
 }
 
 // Tests that all msg events included in an authz MsgExec tx
-// Ref: https://github.com/cosmos/cosmos-sdk/issues/9501
+// Ref: https://github.com/lightmos/lightmos-sdk/issues/9501
 func (s *TestSuite) TestDispatchedEvents() {
 	require := s.Require()
 	addrs := s.addrs

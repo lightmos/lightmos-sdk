@@ -5,12 +5,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/client/tx"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	authclient "github.com/lightmos/lightmos-sdk/x/auth/client"
+	authsigning "github.com/lightmos/lightmos-sdk/x/auth/signing"
 )
 
 func GetValidateSignaturesCommand() *cobra.Command {

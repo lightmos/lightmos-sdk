@@ -3,8 +3,8 @@ package tx_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/tx"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/tx"
 	"github.com/stretchr/testify/require"
 )
 

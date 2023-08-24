@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types"
 )
 
 func FuzzTypesParseTimeBytes(f *testing.F) {

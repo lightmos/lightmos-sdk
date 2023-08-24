@@ -12,15 +12,15 @@ import (
 	rpcclientmock "github.com/cometbft/cometbft/rpc/client/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	testutilmod "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/evidence"
-	"github.com/cosmos/cosmos-sdk/x/evidence/client/cli"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/crypto/keyring"
+	svrcmd "github.com/lightmos/lightmos-sdk/server/cmd"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	testutilmod "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	"github.com/lightmos/lightmos-sdk/x/evidence"
+	"github.com/lightmos/lightmos-sdk/x/evidence/client/cli"
 )
 
 func TestGetQueryCmd(t *testing.T) {

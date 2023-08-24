@@ -7,13 +7,13 @@ import (
 	"github.com/99designs/keyring"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
+	"github.com/lightmos/lightmos-sdk/codec/legacy"
+	"github.com/lightmos/lightmos-sdk/crypto/hd"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/multisig"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
 )
 
 const n1 = "cosmos.info"

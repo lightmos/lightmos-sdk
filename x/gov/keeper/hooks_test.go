@@ -6,12 +6,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	"github.com/cosmos/cosmos-sdk/x/gov/keeper"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/x/gov"
+	"github.com/lightmos/lightmos-sdk/x/gov/keeper"
+	"github.com/lightmos/lightmos-sdk/x/gov/types"
+	v1 "github.com/lightmos/lightmos-sdk/x/gov/types/v1"
 )
 
 var _ types.GovHooks = &MockGovHooksReceiver{}

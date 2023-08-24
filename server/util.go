@@ -28,17 +28,17 @@ import (
 	tmlog "github.com/cometbft/cometbft/libs/log"
 	tmtypes "github.com/cometbft/cometbft/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	serverlog "github.com/cosmos/cosmos-sdk/server/log"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/mempool"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/server/config"
+	serverlog "github.com/lightmos/lightmos-sdk/server/log"
+	"github.com/lightmos/lightmos-sdk/server/types"
+	"github.com/lightmos/lightmos-sdk/snapshots"
+	snapshottypes "github.com/lightmos/lightmos-sdk/snapshots/types"
+	"github.com/lightmos/lightmos-sdk/store"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/mempool"
+	"github.com/lightmos/lightmos-sdk/version"
 )
 
 // DONTCOVER

@@ -3,8 +3,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/lightmos/lightmos-sdk/client"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
 )
 
 // DONTCOVER

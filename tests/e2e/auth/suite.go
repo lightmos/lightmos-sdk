@@ -17,28 +17,28 @@ import (
 	"cosmossdk.io/depinject"
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authcli "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
-	authclitestutil "github.com/cosmos/cosmos-sdk/x/auth/client/testutil"
-	authtestutil "github.com/cosmos/cosmos-sdk/x/auth/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/client/cli"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
-	govtestutil "github.com/cosmos/cosmos-sdk/x/gov/client/testutil"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/crypto/hd"
+	"github.com/lightmos/lightmos-sdk/crypto/keyring"
+	kmultisig "github.com/lightmos/lightmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	"github.com/lightmos/lightmos-sdk/testutil/network"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/tx"
+	"github.com/lightmos/lightmos-sdk/types/tx/signing"
+	authcli "github.com/lightmos/lightmos-sdk/x/auth/client/cli"
+	authclitestutil "github.com/lightmos/lightmos-sdk/x/auth/client/testutil"
+	authtestutil "github.com/lightmos/lightmos-sdk/x/auth/testutil"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
+	bank "github.com/lightmos/lightmos-sdk/x/bank/client/cli"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/x/genutil/client/cli"
+	govtestutil "github.com/lightmos/lightmos-sdk/x/gov/client/testutil"
+	govtypes "github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
 )
 
 type E2ETestSuite struct {
@@ -1593,7 +1593,7 @@ func (s *E2ETestSuite) TestQueryParamsCmd() {
 
 // TestTxWithoutPublicKey makes sure sending a proto tx message without the
 // public key doesn't cause any error in the RPC layer (broadcast).
-// See https://github.com/cosmos/cosmos-sdk/issues/7585 for more details.
+// See https://github.com/lightmos/lightmos-sdk/issues/7585 for more details.
 func (s *E2ETestSuite) TestTxWithoutPublicKey() {
 	val1 := s.network.Validators[0]
 	txCfg := val1.ClientCtx.TxConfig

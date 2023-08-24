@@ -10,14 +10,14 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"cosmossdk.io/simapp"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	banktestutil "github.com/lightmos/lightmos-sdk/x/bank/testutil"
+	"github.com/lightmos/lightmos-sdk/x/staking"
+	"github.com/lightmos/lightmos-sdk/x/staking/keeper"
+	"github.com/lightmos/lightmos-sdk/x/staking/testutil"
+	"github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 func newMonikerValidator(t testing.TB, operator sdk.ValAddress, pubKey cryptotypes.PubKey, moniker string) types.Validator {

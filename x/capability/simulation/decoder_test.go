@@ -7,12 +7,12 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"cosmossdk.io/depinject"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/x/capability/simulation"
-	"github.com/cosmos/cosmos-sdk/x/capability/testutil"
-	"github.com/cosmos/cosmos-sdk/x/capability/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/types/kv"
+	"github.com/lightmos/lightmos-sdk/x/capability/simulation"
+	"github.com/lightmos/lightmos-sdk/x/capability/testutil"
+	"github.com/lightmos/lightmos-sdk/x/capability/types"
 )
 
 func TestDecodeStore(t *testing.T) {

@@ -10,15 +10,15 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"cosmossdk.io/simapp"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	genutiltest "github.com/cosmos/cosmos-sdk/x/genutil/client/testutil"
-	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/server"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
+	"github.com/lightmos/lightmos-sdk/x/auth"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	genutiltest "github.com/lightmos/lightmos-sdk/x/genutil/client/testutil"
+	genutiltypes "github.com/lightmos/lightmos-sdk/x/genutil/types"
+	"github.com/lightmos/lightmos-sdk/x/staking"
 )
 
 func Test_TestnetCmd(t *testing.T) {

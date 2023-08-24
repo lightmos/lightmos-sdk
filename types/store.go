@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/lightmos/lightmos-sdk/store/types"
+	"github.com/lightmos/lightmos-sdk/types/kv"
 )
 
 type (

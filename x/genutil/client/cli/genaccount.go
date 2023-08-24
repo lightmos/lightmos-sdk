@@ -4,12 +4,12 @@ import (
 	"bufio"
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	auth "github.com/cosmos/cosmos-sdk/x/auth/helpers"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/crypto/keyring"
+	"github.com/lightmos/lightmos-sdk/server"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	auth "github.com/lightmos/lightmos-sdk/x/auth/helpers"
 
 	"github.com/spf13/cobra"
 )

@@ -3,7 +3,7 @@ package client_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client"
 	"github.com/stretchr/testify/require"
 )
 

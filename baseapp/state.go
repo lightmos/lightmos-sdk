@@ -1,7 +1,7 @@
 package baseapp
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 type state struct {

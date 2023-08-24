@@ -11,11 +11,11 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/mock"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/secp256k1"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	"github.com/lightmos/lightmos-sdk/testutil/mock"
+	"github.com/lightmos/lightmos-sdk/types"
 )
 
 type contextTestSuite struct {

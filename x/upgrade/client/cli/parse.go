@@ -1,9 +1,9 @@
 package cli
 
 import (
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	"github.com/lightmos/lightmos-sdk/x/gov/client/cli"
+	gov "github.com/lightmos/lightmos-sdk/x/gov/types/v1beta1"
+	"github.com/lightmos/lightmos-sdk/x/upgrade/types"
 	"github.com/spf13/pflag"
 )
 

@@ -6,8 +6,8 @@ import (
 	dbm "github.com/cometbft/cometbft-db"
 	"github.com/stretchr/testify/require"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 func TestStore(t *testing.T) {

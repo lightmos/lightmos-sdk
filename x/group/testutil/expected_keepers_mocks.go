@@ -8,9 +8,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	types "github.com/cosmos/cosmos-sdk/types"
-	types0 "github.com/cosmos/cosmos-sdk/x/auth/types"
-	types1 "github.com/cosmos/cosmos-sdk/x/bank/types"
+	types "github.com/lightmos/lightmos-sdk/types"
+	types0 "github.com/lightmos/lightmos-sdk/x/auth/types"
+	types1 "github.com/lightmos/lightmos-sdk/x/bank/types"
 	gomock "github.com/golang/mock/gomock"
 )
 

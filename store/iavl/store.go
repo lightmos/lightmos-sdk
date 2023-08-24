@@ -13,13 +13,13 @@ import (
 	ics23 "github.com/confio/ics23/go"
 	"github.com/cosmos/iavl"
 
-	"github.com/cosmos/cosmos-sdk/store/cachekv"
-	pruningtypes "github.com/cosmos/cosmos-sdk/store/pruning/types"
-	"github.com/cosmos/cosmos-sdk/store/tracekv"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/lightmos/lightmos-sdk/store/cachekv"
+	pruningtypes "github.com/lightmos/lightmos-sdk/store/pruning/types"
+	"github.com/lightmos/lightmos-sdk/store/tracekv"
+	"github.com/lightmos/lightmos-sdk/store/types"
+	"github.com/lightmos/lightmos-sdk/telemetry"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/types/kv"
 )
 
 const (

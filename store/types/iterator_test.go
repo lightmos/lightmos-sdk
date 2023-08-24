@@ -7,8 +7,8 @@ import (
 	"github.com/cometbft/cometbft/libs/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/lightmos/lightmos-sdk/store/iavl"
+	"github.com/lightmos/lightmos-sdk/store/types"
 )
 
 func newMemTestKVStore(t *testing.T) types.KVStore {

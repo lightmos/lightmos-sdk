@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"cosmossdk.io/simapp"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/secp256k1"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
 
 	"github.com/cometbft/cometbft/crypto"
 	"github.com/stretchr/testify/require"

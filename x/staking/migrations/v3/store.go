@@ -1,12 +1,12 @@
 package v3
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/exported"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	storetypes "github.com/lightmos/lightmos-sdk/store/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	paramtypes "github.com/lightmos/lightmos-sdk/x/params/types"
+	"github.com/lightmos/lightmos-sdk/x/staking/exported"
+	"github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 // subspace contains the method needed for migrations of the

@@ -12,8 +12,8 @@ import (
 	tmtypes "github.com/cometbft/cometbft/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	sdkerrors "github.com/lightmos/lightmos-sdk/types/errors"
 )
 
 type MockClient struct {

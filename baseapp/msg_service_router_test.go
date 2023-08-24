@@ -11,14 +11,14 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"cosmossdk.io/depinject"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
+	"github.com/lightmos/lightmos-sdk/client/tx"
+	"github.com/lightmos/lightmos-sdk/codec"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	"github.com/lightmos/lightmos-sdk/runtime"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	"github.com/lightmos/lightmos-sdk/types/tx/signing"
+	authsigning "github.com/lightmos/lightmos-sdk/x/auth/signing"
+	authtx "github.com/lightmos/lightmos-sdk/x/auth/tx"
 )
 
 func TestRegisterMsgService(t *testing.T) {

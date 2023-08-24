@@ -9,12 +9,12 @@ import (
 	reflect "reflect"
 
 	math "cosmossdk.io/math"
-	types "github.com/cosmos/cosmos-sdk/types"
-	query "github.com/cosmos/cosmos-sdk/types/query"
-	types0 "github.com/cosmos/cosmos-sdk/x/auth/types"
-	keeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	types1 "github.com/cosmos/cosmos-sdk/x/bank/types"
-	types2 "github.com/cosmos/cosmos-sdk/x/staking/types"
+	types "github.com/lightmos/lightmos-sdk/types"
+	query "github.com/lightmos/lightmos-sdk/types/query"
+	types0 "github.com/lightmos/lightmos-sdk/x/auth/types"
+	keeper "github.com/lightmos/lightmos-sdk/x/bank/keeper"
+	types1 "github.com/lightmos/lightmos-sdk/x/bank/types"
+	types2 "github.com/lightmos/lightmos-sdk/x/staking/types"
 	gomock "github.com/golang/mock/gomock"
 )
 

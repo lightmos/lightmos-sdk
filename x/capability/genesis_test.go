@@ -3,13 +3,13 @@ package capability_test
 import (
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/capability"
-	"github.com/cosmos/cosmos-sdk/x/capability/keeper"
-	"github.com/cosmos/cosmos-sdk/x/capability/testutil"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	simtestutil "github.com/lightmos/lightmos-sdk/testutil/sims"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/x/capability"
+	"github.com/lightmos/lightmos-sdk/x/capability/keeper"
+	"github.com/lightmos/lightmos-sdk/x/capability/testutil"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 func (suite *CapabilityTestSuite) TestGenesis() {

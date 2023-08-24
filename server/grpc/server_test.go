@@ -14,20 +14,20 @@ import (
 	"google.golang.org/grpc/metadata"
 	rpb "google.golang.org/grpc/reflection/grpc_reflection_v1alpha"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	reflectionv1 "github.com/cosmos/cosmos-sdk/client/grpc/reflection"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/codec"
-	reflectionv2 "github.com/cosmos/cosmos-sdk/server/grpc/reflection/v2alpha1"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/lightmos/lightmos-sdk/client"
+	reflectionv1 "github.com/lightmos/lightmos-sdk/client/grpc/reflection"
+	clienttx "github.com/lightmos/lightmos-sdk/client/tx"
+	"github.com/lightmos/lightmos-sdk/codec"
+	reflectionv2 "github.com/lightmos/lightmos-sdk/server/grpc/reflection/v2alpha1"
+	"github.com/lightmos/lightmos-sdk/testutil/network"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	grpctypes "github.com/lightmos/lightmos-sdk/types/grpc"
+	txtypes "github.com/lightmos/lightmos-sdk/types/tx"
+	"github.com/lightmos/lightmos-sdk/types/tx/signing"
+	authclient "github.com/lightmos/lightmos-sdk/x/auth/client"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
+	stakingtypes "github.com/lightmos/lightmos-sdk/x/staking/types"
 )
 
 type IntegrationTestSuite struct {
@@ -154,7 +154,7 @@ func (s *IntegrationTestSuite) TestGRPCServer_InterfaceReflection() {
 
 func (s *IntegrationTestSuite) TestGRPCServer_GetTxsEvent() {
 	// Query the tx via gRPC without pagination. This used to panic, see
-	// https://github.com/cosmos/cosmos-sdk/issues/8038.
+	// https://github.com/lightmos/lightmos-sdk/issues/8038.
 	txServiceClient := txtypes.NewServiceClient(s.conn)
 	_, err := txServiceClient.GetTxsEvent(
 		context.Background(),
@@ -189,7 +189,7 @@ func (s *IntegrationTestSuite) TestGRPCServer_BroadcastTx() {
 
 // Test and enforce that we upfront reject any connections to baseapp containing
 // invalid initial x-cosmos-block-height that aren't positive  and in the range [0, max(int64)]
-// See issue https://github.com/cosmos/cosmos-sdk/issues/7662.
+// See issue https://github.com/lightmos/lightmos-sdk/issues/7662.
 func (s *IntegrationTestSuite) TestGRPCServerInvalidHeaderHeights() {
 	t := s.T()
 
@@ -217,7 +217,7 @@ func (s *IntegrationTestSuite) TestGRPCServerInvalidHeaderHeights() {
 }
 
 // TestGRPCUnpacker - tests the grpc endpoint for Validator and using the interface registry unpack and extract the
-// ConsAddr. (ref: https://github.com/cosmos/cosmos-sdk/issues/8045)
+// ConsAddr. (ref: https://github.com/lightmos/lightmos-sdk/issues/8045)
 func (s *IntegrationTestSuite) TestGRPCUnpacker() {
 	ir := s.cfg.InterfaceRegistry
 	queryClient := stakingtypes.NewQueryClient(s.conn)

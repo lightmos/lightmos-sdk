@@ -6,10 +6,10 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/cosmos/cosmos-sdk/store/cachekv"
-	"github.com/cosmos/cosmos-sdk/store/dbadapter"
-	"github.com/cosmos/cosmos-sdk/store/tracekv"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/lightmos/lightmos-sdk/store/cachekv"
+	"github.com/lightmos/lightmos-sdk/store/dbadapter"
+	"github.com/lightmos/lightmos-sdk/store/tracekv"
+	"github.com/lightmos/lightmos-sdk/store/types"
 )
 
 // storeNameCtxKey is the TraceContext metadata key that identifies

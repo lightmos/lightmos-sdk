@@ -8,14 +8,14 @@ import (
 	"github.com/stretchr/testify/require"
 
 	sdkmath "cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	authzmodule "github.com/cosmos/cosmos-sdk/x/authz/module"
-	"github.com/cosmos/cosmos-sdk/x/authz/simulation"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/types/module"
+	simtypes "github.com/lightmos/lightmos-sdk/types/simulation"
+	"github.com/lightmos/lightmos-sdk/x/authz"
+	authzmodule "github.com/lightmos/lightmos-sdk/x/authz/module"
+	"github.com/lightmos/lightmos-sdk/x/authz/simulation"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
 
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	moduletestutil "github.com/lightmos/lightmos-sdk/types/module/testutil"
 )
 
 func TestRandomizedGenState(t *testing.T) {

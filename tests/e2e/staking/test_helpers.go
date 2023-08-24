@@ -3,12 +3,12 @@ package testutil
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	stakingcli "github.com/cosmos/cosmos-sdk/x/staking/client/cli"
+	"github.com/lightmos/lightmos-sdk/client"
+	"github.com/lightmos/lightmos-sdk/client/flags"
+	"github.com/lightmos/lightmos-sdk/testutil"
+	clitestutil "github.com/lightmos/lightmos-sdk/testutil/cli"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	stakingcli "github.com/lightmos/lightmos-sdk/x/staking/client/cli"
 )
 
 var commonArgs = []string{

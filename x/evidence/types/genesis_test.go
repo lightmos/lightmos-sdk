@@ -8,11 +8,11 @@ import (
 	tmbytes "github.com/cometbft/cometbft/libs/bytes"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	"github.com/lightmos/lightmos-sdk/crypto/keys/ed25519"
+	"github.com/lightmos/lightmos-sdk/x/evidence/exported"
+	"github.com/lightmos/lightmos-sdk/x/evidence/types"
 )
 
 func TestDefaultGenesisState(t *testing.T) {

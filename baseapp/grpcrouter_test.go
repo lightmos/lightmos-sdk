@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"cosmossdk.io/depinject"
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	testdata_pulsar "github.com/cosmos/cosmos-sdk/testutil/testdata/testpb"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/baseapp"
+	"github.com/lightmos/lightmos-sdk/codec/types"
+	"github.com/lightmos/lightmos-sdk/runtime"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
+	testdata_pulsar "github.com/lightmos/lightmos-sdk/testutil/testdata/testpb"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 )
 
 func TestGRPCQueryRouter(t *testing.T) {
@@ -79,7 +79,7 @@ func TestRegisterQueryServiceTwice(t *testing.T) {
 }
 
 // Tests that we don't have data races per
-// https://github.com/cosmos/cosmos-sdk/issues/10324
+// https://github.com/lightmos/lightmos-sdk/issues/10324
 // but with the same client connection being used concurrently.
 func TestQueryDataRaces_sameConnectionToSameHandler(t *testing.T) {
 	var mu sync.Mutex
@@ -100,7 +100,7 @@ func TestQueryDataRaces_sameConnectionToSameHandler(t *testing.T) {
 }
 
 // Tests that we don't have data races per
-// https://github.com/cosmos/cosmos-sdk/issues/10324
+// https://github.com/lightmos/lightmos-sdk/issues/10324
 // but with unique client connections requesting from the same handler concurrently.
 func TestQueryDataRaces_uniqueConnectionsToSameHandler(t *testing.T) {
 	// Return a new handler for every single call.

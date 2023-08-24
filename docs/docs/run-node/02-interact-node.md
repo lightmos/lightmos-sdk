@@ -94,7 +94,7 @@ grpcurl \
     cosmos.bank.v1beta1.Query/AllBalances
 ```
 
-The list of all available gRPC query endpoints is [coming soon](https://github.com/cosmos/cosmos-sdk/issues/7786).
+The list of all available gRPC query endpoints is [coming soon](https://github.com/lightmos/lightmos-sdk/issues/7786).
 
 #### Query for historical state using grpcurl
 
@@ -131,9 +131,9 @@ import (
 
     "google.golang.org/grpc"
 
-    "github.com/cosmos/cosmos-sdk/codec"
-    sdk "github.com/cosmos/cosmos-sdk/types"
-    banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+    "github.com/lightmos/lightmos-sdk/codec"
+    sdk "github.com/lightmos/lightmos-sdk/types"
+    banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
 )
 
 func queryState() error {
@@ -177,7 +177,7 @@ func main() {
 }
 ```
 
-You can replace the query client (here we are using `x/bank`'s) with one generated from any other Protobuf service. The list of all available gRPC query endpoints is [coming soon](https://github.com/cosmos/cosmos-sdk/issues/7786).
+You can replace the query client (here we are using `x/bank`'s) with one generated from any other Protobuf service. The list of all available gRPC query endpoints is [coming soon](https://github.com/lightmos/lightmos-sdk/issues/7786).
 
 #### Query for historical state using Go
 
@@ -193,10 +193,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	sdk "github.com/lightmos/lightmos-sdk/types"
+	grpctypes "github.com/lightmos/lightmos-sdk/types/grpc"
+	banktypes "github.com/lightmos/lightmos-sdk/x/bank/types"
 )
 
 func queryState() error {

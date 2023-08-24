@@ -9,12 +9,12 @@ import (
 
 	"cosmossdk.io/depinject"
 	sdkmath "cosmossdk.io/math"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/simulation"
-	"github.com/cosmos/cosmos-sdk/x/group/testutil"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/types/module"
+	simtypes "github.com/lightmos/lightmos-sdk/types/simulation"
+	"github.com/lightmos/lightmos-sdk/x/group"
+	"github.com/lightmos/lightmos-sdk/x/group/simulation"
+	"github.com/lightmos/lightmos-sdk/x/group/testutil"
 )
 
 func TestRandomizedGenState(t *testing.T) {

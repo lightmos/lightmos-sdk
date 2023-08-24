@@ -3,13 +3,13 @@ package orm
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/lightmos/lightmos-sdk/codec"
+	"github.com/lightmos/lightmos-sdk/codec/types"
+	sdk "github.com/lightmos/lightmos-sdk/types"
 	"github.com/stretchr/testify/require"
 	"pgregory.net/rapid"
 
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/lightmos/lightmos-sdk/testutil/testdata"
 )
 
 func TestPrimaryKeyTable(t *testing.T) {
