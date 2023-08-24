@@ -7,9 +7,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"lightmos/x/restaking/types"
 )
 
 func (k Keeper) ValidatorTokenAll(goCtx context.Context, req *types.QueryAllValidatorTokenRequest) (*types.QueryAllValidatorTokenResponse, error) {

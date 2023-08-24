@@ -3,12 +3,12 @@ package cli
 import (
 	"strconv"
 
-	lightmos "lightmos/types"
-	"lightmos/x/restaking/types"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	channelutils "github.com/cosmos/ibc-go/v7/modules/core/04-channel/client/utils"
 	"github.com/spf13/cobra"
 )
@@ -30,7 +30,7 @@ func CmdSendRetireShare() *cobra.Command {
 			srcPort := args[0]
 			srcChannel := args[1]
 
-			argAmount, err := lightmos.ParseCoinNormalized(args[2])
+			argAmount, err := sdk.ParseCoinNormalized(args[2])
 			if err != nil {
 				return err
 			}

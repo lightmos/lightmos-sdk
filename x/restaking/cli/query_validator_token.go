@@ -3,8 +3,8 @@ package cli
 import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 	"github.com/spf13/cobra"
-	"lightmos/x/restaking/types"
 )
 
 func CmdListValidatorToken() *cobra.Command {

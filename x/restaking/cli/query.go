@@ -6,9 +6,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/cosmos-sdk/client"
-
-	"github.com/lightmos/lightmos-sdk/"
-
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module
@@ -22,7 +20,6 @@ func GetQueryCmd(queryRoute string) *cobra.Command {
 		RunE:                       client.ValidateCmd,
 	}
 
-	cmd.AddCommand(CmdQueryParams())
 	cmd.AddCommand(CmdListSellOrderBook())
 	cmd.AddCommand(CmdShowSellOrderBook())
 	cmd.AddCommand(CmdListBuyOrderBook())

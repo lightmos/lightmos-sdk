@@ -2,8 +2,9 @@ package cli
 
 import (
 	"fmt"
-	"lightmos/x/restaking/types"
 	"strconv"
+
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

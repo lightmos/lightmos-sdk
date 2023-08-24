@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"lightmos/x/restaking/types"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"

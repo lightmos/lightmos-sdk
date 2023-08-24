@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"lightmos/x/restaking/types"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

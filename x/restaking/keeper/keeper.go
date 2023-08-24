@@ -18,7 +18,7 @@ import (
 	sdkmath "cosmossdk.io/math"
 	ibctransfertypes "github.com/cosmos/ibc-go/v7/modules/apps/transfer/types"
 
-	"lightmos/x/restaking/types"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 )
 
 type (
@@ -51,10 +51,6 @@ func NewKeeper(
 	stakingKeeper types.StakingKeeper,
 	accountKeeper types.AccountKeeper,
 ) *Keeper {
-	// set KeyTable if it has not already been set
-	if !ps.HasKeyTable() {
-		ps = ps.WithKeyTable(types.ParamKeyTable())
-	}
 
 	return &Keeper{
 		cdc:        cdc,

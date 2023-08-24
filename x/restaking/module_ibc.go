@@ -3,8 +3,8 @@ package restaking
 import (
 	"fmt"
 
-	"lightmos/x/restaking/keeper"
-	"lightmos/x/restaking/types"
+	"github.com/cosmos/cosmos-sdk/x/restaking/keeper"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

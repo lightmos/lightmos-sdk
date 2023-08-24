@@ -1,15 +1,16 @@
 package cli
 
 import (
-	lightmos "lightmos/types"
 	"strconv"
+
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 	channelutils "github.com/cosmos/ibc-go/v7/modules/core/04-channel/client/utils"
 	"github.com/spf13/cobra"
-	"lightmos/x/restaking/types"
 )
 
 var _ = strconv.Itoa(0)
@@ -29,7 +30,7 @@ func CmdSendUndelegate() *cobra.Command {
 			srcPort := args[0]
 			srcChannel := args[1]
 
-			argAmount, err := lightmos.ParseCoinNormalized(args[2])
+			argAmount, err := sdk.ParseCoinNormalized(args[2])
 			if err != nil {
 				return err
 			}

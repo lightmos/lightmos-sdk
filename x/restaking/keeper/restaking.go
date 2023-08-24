@@ -2,8 +2,8 @@ package keeper
 
 import (
 	"errors"
-	ty "lightmos/types"
-	"lightmos/x/restaking/types"
+
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 
 	abci "github.com/cometbft/cometbft/abci/types"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
@@ -139,9 +139,9 @@ func (k Keeper) OnRecvRestakePacket(ctx sdk.Context, packet channeltypes.Packet,
 		return packetAck, err
 	}
 
-	totalCoin := ty.NewCoin(k.stakingKeeper.BondDenom(ctx), data.Value.Amount)
-	retireCoin := ty.NewCoin(k.stakingKeeper.BondDenom(ctx), sdk.ZeroInt())
-	avaCoin := ty.NewCoin("token", sdk.ZeroInt())
+	totalCoin := sdk.NewCoin(k.stakingKeeper.BondDenom(ctx), data.Value.Amount)
+	retireCoin := sdk.NewCoin(k.stakingKeeper.BondDenom(ctx), sdk.ZeroInt())
+	avaCoin := sdk.NewCoin("token", sdk.ZeroInt())
 	vt := types.ValidatorToken{
 		Address:   data.Restaker,
 		Total:     &totalCoin,

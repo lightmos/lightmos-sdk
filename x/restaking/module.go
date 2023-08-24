@@ -12,9 +12,9 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"lightmos/x/restaking/client/cli"
-	"lightmos/x/restaking/keeper"
-	"lightmos/x/restaking/types"
+	"github.com/cosmos/cosmos-sdk/x/restaking/cli"
+	"github.com/cosmos/cosmos-sdk/x/restaking/keeper"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"

@@ -3,8 +3,9 @@ package cli
 import (
 	"strconv"
 
-	lightmos "lightmos/types"
-	"lightmos/x/restaking/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
@@ -27,7 +28,7 @@ func CmdWithdrawToken() *cobra.Command {
 				return err
 			}
 
-			amount, err := lightmos.ParseCoinNormalized(argAmount)
+			amount, err := sdk.ParseCoinNormalized(argAmount)
 			if err != nil {
 				return err
 			}

@@ -3,7 +3,7 @@ package cli
 import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/lightmos/lightmos-sdk/x/restaking/types"
+	"github.com/cosmos/cosmos-sdk/x/restaking/types"
 	"github.com/spf13/cobra"
 )
 
