@@ -1,11 +1,11 @@
 syntax = "proto3";
-package lightmos.restaking;
+package cosmos.restaking.v1beta1;
 
 import "cosmos_proto/cosmos.proto";
 import "gogoproto/gogo.proto";
 import "lightmos/base/coin.proto";
 
-option go_package = "lightmos/x/restaking/types";
+option go_package = "github.com/lightmos/lightmos-sdk/x/restaking/types";
 
 message ValidatorToken {
   string address = 1;

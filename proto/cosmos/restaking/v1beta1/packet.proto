@@ -1,15 +1,15 @@
 syntax = "proto3";
 
-package lightmos.restaking;
+package cosmos.restaking.v1beta1;
 
 import "cosmos_proto/cosmos.proto";
-import "lightmos/restaking/restaking.proto";
+import "cosmos/restaking/v1beta1/restaking.proto";
 import "gogoproto/gogo.proto";
 import "google/protobuf/any.proto";
 import "google/protobuf/timestamp.proto";
 import "lightmos/base/coin.proto";
 
-option go_package = "lightmos/x/restaking/types";
+option go_package = "github.com/lightmos/lightmos-sdk/x/restaking/types";
 
 message RestakingPacketData {
   oneof packet {
