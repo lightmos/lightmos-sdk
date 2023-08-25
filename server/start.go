@@ -22,8 +22,6 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"cosmossdk.io/tools/rosetta"
-	crgserver "cosmossdk.io/tools/rosetta/lib/server"
 	"github.com/lightmos/lightmos-sdk/client"
 	"github.com/lightmos/lightmos-sdk/client/flags"
 	"github.com/lightmos/lightmos-sdk/codec"
@@ -33,6 +31,8 @@ import (
 	"github.com/lightmos/lightmos-sdk/server/types"
 	pruningtypes "github.com/lightmos/lightmos-sdk/store/pruning/types"
 	"github.com/lightmos/lightmos-sdk/telemetry"
+	"github.com/lightmos/lightmos-sdk/tools/rosetta"
+	crgserver "github.com/lightmos/lightmos-sdk/tools/rosetta/lib/server"
 	sdk "github.com/lightmos/lightmos-sdk/types"
 	"github.com/lightmos/lightmos-sdk/types/mempool"
 )

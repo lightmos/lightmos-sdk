@@ -9,7 +9,6 @@ require (
 	cosmossdk.io/errors v1.0.0
 	cosmossdk.io/log v1.1.1-0.20230704160919-88f2c830b0ca
 	cosmossdk.io/math v1.0.1
-	cosmossdk.io/tools/rosetta v0.2.1
 	github.com/99designs/keyring v1.2.1
 	github.com/armon/go-metrics v0.4.1
 	github.com/bgentry/speakeasy v0.1.1-0.20220910012023-760eaf8b6816
@@ -84,7 +83,6 @@ require (
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/coinbase/rosetta-sdk-go/types v1.0.0 // indirect
-	github.com/cosmos/cosmos-sdk v0.47.0 // indirect
 	github.com/cosmos/ics23/go v0.10.0 // indirect
 	github.com/cosmos/rosetta-sdk-go v0.10.0 // indirect
 	github.com/creachadair/taskgroup v0.4.2 // indirect

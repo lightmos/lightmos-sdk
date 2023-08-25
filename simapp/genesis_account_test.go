@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"cosmossdk.io/simapp"
 	"github.com/lightmos/lightmos-sdk/crypto/keys/secp256k1"
+	"github.com/lightmos/lightmos-sdk/simapp"
 	sdk "github.com/lightmos/lightmos-sdk/types"
 	authtypes "github.com/lightmos/lightmos-sdk/x/auth/types"
 

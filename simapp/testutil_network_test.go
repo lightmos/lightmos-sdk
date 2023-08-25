@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"cosmossdk.io/simapp"
+	"github.com/lightmos/lightmos-sdk/simapp"
 	"github.com/lightmos/lightmos-sdk/testutil/network"
 )
 
