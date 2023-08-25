@@ -8,7 +8,7 @@ import (
 	"github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/spf13/pflag"
 
-	crg "cosmossdk.io/tools/rosetta/lib/server"
+	crg "github.com/lightmos/lightmos-sdk/tools/rosetta/lib/server"
 
 	clientflags "github.com/lightmos/lightmos-sdk/client/flags"
 	"github.com/lightmos/lightmos-sdk/codec"

@@ -5,8 +5,8 @@ import (
 
 	"github.com/coinbase/rosetta-sdk-go/types"
 
-	crgerrs "cosmossdk.io/tools/rosetta/lib/errors"
-	crgtypes "cosmossdk.io/tools/rosetta/lib/types"
+	crgerrs "github.com/lightmos/lightmos-sdk/tools/rosetta/lib/errors"
+	crgtypes "github.com/lightmos/lightmos-sdk/tools/rosetta/lib/types"
 )
 
 // NewOffline instantiates the instance of an offline network

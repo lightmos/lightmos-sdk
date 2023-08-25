@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"github.com/spf13/cobra"
 
-	"cosmossdk.io/tools/rosetta"
 	"github.com/lightmos/lightmos-sdk/codec"
 	codectypes "github.com/lightmos/lightmos-sdk/codec/types"
+	"github.com/lightmos/lightmos-sdk/tools/rosetta"
 )
 
 // RosettaCommand builds the rosetta root command given

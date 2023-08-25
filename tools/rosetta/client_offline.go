@@ -6,7 +6,7 @@ import (
 
 	"github.com/coinbase/rosetta-sdk-go/types"
 
-	crgerrs "cosmossdk.io/tools/rosetta/lib/errors"
+	crgerrs "github.com/lightmos/lightmos-sdk/tools/rosetta/lib/errors"
 
 	sdk "github.com/lightmos/lightmos-sdk/types"
 )

@@ -22,8 +22,8 @@ import (
 	"github.com/cometbft/cometbft/rpc/client/http"
 	"google.golang.org/grpc"
 
-	crgerrs "cosmossdk.io/tools/rosetta/lib/errors"
-	crgtypes "cosmossdk.io/tools/rosetta/lib/types"
+	crgerrs "github.com/lightmos/lightmos-sdk/tools/rosetta/lib/errors"
+	crgtypes "github.com/lightmos/lightmos-sdk/tools/rosetta/lib/types"
 
 	sdk "github.com/lightmos/lightmos-sdk/types"
 	grpctypes "github.com/lightmos/lightmos-sdk/types/grpc"
