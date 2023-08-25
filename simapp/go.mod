@@ -1,4 +1,4 @@
-module cosmossdk.io/simapp
+module github.com/lightmos/lightmos-sdk/simapp
 
 go 1.19
 

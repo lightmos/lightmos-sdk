@@ -1,4 +1,4 @@
-module cosmossdk.io/tx
+module github.com/lightmos/lightmos-sdk/tx
 
 go 1.19
 

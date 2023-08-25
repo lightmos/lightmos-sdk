@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"cosmossdk.io/simapp"
-	"cosmossdk.io/simapp/simd/cmd"
 	"github.com/lightmos/lightmos-sdk/server"
 	svrcmd "github.com/lightmos/lightmos-sdk/server/cmd"
+	"github.com/lightmos/lightmos-sdk/simapp"
+	"github.com/lightmos/lightmos-sdk/simapp/simd/cmd"
 )
 
 func main() {

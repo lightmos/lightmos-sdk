@@ -19,7 +19,6 @@ import (
 
 	"cosmossdk.io/math"
 
-	"cosmossdk.io/simapp"
 	"github.com/lightmos/lightmos-sdk/client"
 	"github.com/lightmos/lightmos-sdk/client/flags"
 	"github.com/lightmos/lightmos-sdk/client/tx"
@@ -28,6 +27,7 @@ import (
 	cryptotypes "github.com/lightmos/lightmos-sdk/crypto/types"
 	"github.com/lightmos/lightmos-sdk/server"
 	srvconfig "github.com/lightmos/lightmos-sdk/server/config"
+	"github.com/lightmos/lightmos-sdk/simapp"
 	"github.com/lightmos/lightmos-sdk/testutil"
 	"github.com/lightmos/lightmos-sdk/testutil/network"
 	sdk "github.com/lightmos/lightmos-sdk/types"

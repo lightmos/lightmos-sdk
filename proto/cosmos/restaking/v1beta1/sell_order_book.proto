@@ -1,8 +1,8 @@
 syntax = "proto3";
-package lightmos.restaking;
+package cosmos.restaking.v1beta1;
 
-option go_package = "lightmos/x/restaking/types";
-import "lightmos/restaking/order.proto";
+option go_package = "github.com/lightmos/lightmos-sdk/x/restaking/types";
+import "cosmos/restaking/v1beta1/order.proto";
 message SellOrderBook {
   string index = 1; 
   string amountDenom = 2; 

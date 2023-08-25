@@ -1,15 +1,15 @@
 syntax = "proto3";
 
-package lightmos.restaking;
+package cosmos.restaking.v1beta1;
 
 import "gogoproto/gogo.proto";
-import "lightmos/restaking/params.proto";
-import "lightmos/restaking/sell_order_book.proto";
-import "lightmos/restaking/buy_order_book.proto";
-import "lightmos/restaking/denom_trace.proto";
-import "lightmos/restaking/validator_token.proto";
+import "cosmos/restaking/v1beta1/params.proto";
+import "cosmos/restaking/v1beta1/sell_order_book.proto";
+import "cosmos/restaking/v1beta1/buy_order_book.proto";
+import "cosmos/restaking/v1beta1/denom_trace.proto";
+import "cosmos/restaking/v1beta1/validator_token.proto";
 
-option go_package = "lightmos/x/restaking/types";
+option go_package = "github.com/lightmos/lightmos-sdk/x/restaking/types";
 
 // GenesisState defines the restaking module's genesis state.
 message GenesisState {

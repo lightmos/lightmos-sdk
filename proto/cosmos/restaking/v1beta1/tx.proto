@@ -1,15 +1,15 @@
 syntax = "proto3";
 
-package lightmos.restaking;
+package cosmos.restaking.v1beta1;
 
-import "lightmos/restaking/restaking.proto";
+import "cosmos/restaking/v1beta1/restaking.proto";
 import "gogoproto/gogo.proto";
 import "google/protobuf/any.proto";
 import "google/protobuf/timestamp.proto";
 import "cosmos/base/v1beta1/coin.proto";
 import "cosmos_proto/cosmos.proto";
 
-option go_package = "lightmos/x/restaking/types";
+option go_package = "github.com/lightmos/lightmos-sdk/x/restaking/types";
 
 // Msg defines the Msg service.
 service Msg {
@@ -79,13 +79,13 @@ message MsgCreateValidator {
   // is expected to sign, otherwise both are.
   option           (gogoproto.equal) = false;
   option (gogoproto.goproto_getters) = false;
-  lightmos.restaking.Description     description         =  1 [(gogoproto.nullable)  = false                 ] ;
-  lightmos.restaking.CommissionRates commission          =  2 [(gogoproto.nullable)  = false                 ] ;
+  cosmos.restaking.v1beta1.Description     description         =  1 [(gogoproto.nullable)  = false                 ] ;
+  cosmos.restaking.v1beta1.CommissionRates commission          =  2 [(gogoproto.nullable)  = false                 ] ;
   string                             min_self_delegation =  3 [(cosmos_proto.scalar) = "cosmos.Int"          , (gogoproto.customtype) = "github.com/lightmos/lightmos-sdk/types.Int", (gogoproto.nullable) = false];
   string                             delegator_address   =  4 [(cosmos_proto.scalar) = "cosmos.AddressString"] ;
   string                             validator_address   =  5 [(cosmos_proto.scalar) = "cosmos.AddressString"] ;
   string                             pubkey              =  6;
-  lightmos.base.Coin                 value               =  7 [(gogoproto.nullable)  = false                 ] ;
+  cosmos.base.v1beta1.Coin                 value               =  7 [(gogoproto.nullable)  = false                 ] ;
   string                             port                =  8;
   string                             channelID           =  9;
   uint64                             timeoutTimestamp    = 10;
@@ -97,7 +97,7 @@ message MsgCreateValidator {
 message MsgCreateValidatorResponse {}
 
 message MsgSendRetireShare {
-  lightmos.base.Coin amount           = 5;
+  cosmos.base.v1beta1.Coin amount           = 5;
   string             validatorAddress = 1;
   string             port             = 2;
   string             channelID        = 3;
@@ -107,7 +107,7 @@ message MsgSendRetireShare {
 message MsgSendRetireShareResponse {}
 
 message MsgSendUndelegate {
-  lightmos.base.Coin amount           = 5;
+  cosmos.base.v1beta1.Coin amount           = 5;
   string             validatorAddress = 1;
   string             port             = 2;
   string             channelID        = 3;
@@ -118,7 +118,7 @@ message MsgSendUndelegateResponse {}
 
 message MsgWithdrawToken {
   string creator = 1;
-  lightmos.base.Coin                 value               =  7 [(gogoproto.nullable)  = false                 ] ;
+  cosmos.base.v1beta1.Coin                value               =  7 [(gogoproto.nullable)  = false                 ] ;
 }
 
 message MsgWithdrawTokenResponse {}

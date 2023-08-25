@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	rosettaCmd "cosmossdk.io/tools/rosetta/cmd"
+	rosettaCmd "github.com/lightmos/lightmos-sdk/tools/rosetta/cmd"
 
 	dbm "github.com/cometbft/cometbft-db"
 	tmcfg "github.com/cometbft/cometbft/config"
@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"cosmossdk.io/simapp"
-	"cosmossdk.io/simapp/params"
+	"github.com/lightmos/lightmos-sdk/simapp"
+	"github.com/lightmos/lightmos-sdk/simapp/params"
 
 	"github.com/lightmos/lightmos-sdk/client"
 	"github.com/lightmos/lightmos-sdk/client/config"

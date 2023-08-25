@@ -1,4 +1,4 @@
-module cosmossdk.io/tools/rosetta
+module github.com/lightmos/lightmos-sdk/tools/rosetta
 
 go 1.19
 
