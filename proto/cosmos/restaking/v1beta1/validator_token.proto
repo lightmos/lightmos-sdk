@@ -1,15 +1,15 @@
 syntax = "proto3";
-package lightmos.restaking;
+package cosmos.restaking.v1beta1;
 
 import "cosmos_proto/cosmos.proto";
 import "gogoproto/gogo.proto";
-import "lightmos/base/coin.proto";
+import "cosmos/base/v1beta1/coin.proto";
 
-option go_package = "lightmos/x/restaking/types";
+option go_package = "github.com/cosmos/cosmos-sdk/x/restaking/types";
 
 message ValidatorToken {
   string address = 1;
-  lightmos.base.Coin total = 2;
-  lightmos.base.Coin retire = 3;
-  lightmos.base.Coin available = 4;
+  cosmos.base.v1beta1.Coin total = 2;
+  cosmos.base.v1beta1.Coin retire = 3;
+  cosmos.base.v1beta1.Coin available = 4;
 }

@@ -1,7 +1,7 @@
 syntax = "proto3";
-package lightmos.restaking;
+package cosmos.restaking.v1beta1;
 
-option go_package = "lightmos/x/restaking/types";
+option go_package = "github.com/cosmos/cosmos-sdk/x/restaking/types";
 
 import "cosmos_proto/cosmos.proto";
 import "gogoproto/gogo.proto";

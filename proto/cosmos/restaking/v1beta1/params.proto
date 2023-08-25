@@ -1,12 +1,12 @@
 syntax = "proto3";
-package lightmos.restaking;
+package cosmos.restaking.v1beta1;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "lightmos/x/restaking/types";
+option go_package = "github.com/cosmos/cosmos-sdk/x/restaking/types";
 
 // Params defines the parameters for the module.
 message Params {
-  option (gogoproto.goproto_stringer) = false;
+  option (gogoproto.goproto_stringer) = true;
   
 }
