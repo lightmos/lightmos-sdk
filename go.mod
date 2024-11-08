@@ -8,7 +8,7 @@ require (
 	cosmossdk.io/depinject v1.0.0-alpha.3
 	cosmossdk.io/errors v1.0.0-beta.7
 	cosmossdk.io/log v1.1.0
-	cosmossdk.io/math v1.0.1
+	cosmossdk.io/math v1.3.0
 	cosmossdk.io/tools/rosetta v0.2.1
 	github.com/99designs/keyring v1.2.1
 	github.com/armon/go-metrics v0.4.1
@@ -52,7 +52,7 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.14.0
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	github.com/tendermint/go-amino v0.16.0
 	github.com/tidwall/btree v1.6.0
 	golang.org/x/crypto v0.7.0
@@ -62,7 +62,7 @@ require (
 	google.golang.org/protobuf v1.30.0
 	gotest.tools/v3 v3.4.0
 	pgregory.net/rapid v0.5.5
-	sigs.k8s.io/yaml v1.3.0
+	sigs.k8s.io/yaml v1.4.0
 )
 
 require (
